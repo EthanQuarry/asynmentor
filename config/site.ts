@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
+	name: "Asynmentor - A better way to send assignments.",
+	description: "Simplify the way you send assignments to your students.",
 	navItems: [
 		{
 			label: "Features",

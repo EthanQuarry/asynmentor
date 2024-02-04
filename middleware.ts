@@ -47,7 +47,7 @@ const verifyJWT = async (jwt: string | Uint8Array) => {
       }
       
       else if (!isAuthenticated) {
-        req.nextUrl.pathname = "/";
+        req.nextUrl.pathname = "/"; 
         return NextResponse.redirect(req.nextUrl);
       }
       return NextResponse.next();

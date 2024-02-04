@@ -1,0 +1,52 @@
+
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Schema for users
+model Admin {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  email     String  @unique
+  firstName String
+  lastName  String
+  password  String
+  isAdmin   Boolean @default(true)
+}
+
+model Teacher {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  email     String  @unique
+  firstName String
+  lastName  String
+  password  String
+  isAdmin   Boolean @default(false)
+
+  students  Student[]
+}
+
+model Student {
+  id        String   @id @default(uuid())
+  teacherId String  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  email     String  @unique
+  firstName String
+  lastName  String
+  password  String
+  isAdmin   Boolean @default(false)
+
+  teacher   Teacher @relation(fields: [teacherId], references: [id])
+}

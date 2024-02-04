@@ -10,41 +10,33 @@ export default function Home() {
 	return (
 		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
 			<div className="inline-block max-w-lg text-center justify-center">
-				<h1 className={title()}>Make&nbsp;</h1>
-				<h1 className={title({ color: "violet" })}>beautiful&nbsp;</h1>
+				<h1 className={title()}>Simplify&nbsp;</h1>
+				<h1 className={title({ color: "violet" })}>Assignments,&nbsp;</h1>
 				<br />
 				<h1 className={title()}>
-					websites regardless of your design experience.
+					By Actually Helping Students&nbsp;
+					<h1 className={title({ color: "violet" })}>Learn&nbsp;</h1>
 				</h1>
 				<h2 className={subtitle({ class: "mt-4" })}>
-					Beautiful, fast and modern React UI library.
+					Nothing makes a teacher happier than a student who is actually learning.
 				</h2>
 			</div>
 
 			<div className="flex gap-3">
 				<Link
-					isExternal
-					href={siteConfig.links.docs}
+					href={"/application/login"}
 					className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
 				>
-					Documentation
+					Get Started
 				</Link>
 				<Link
 					isExternal
 					className={buttonStyles({ variant: "bordered", radius: "full" })}
-					href={siteConfig.links.github}
+					href={siteConfig.links.blog}
 				>
-					<GithubIcon size={20} />
-					GitHub
+					
+					How I made this →
 				</Link>
-			</div>
-
-			<div className="mt-8">
-				<Snippet hideSymbol hideCopyButton variant="flat">
-					<span>
-						Get started by editing <Code color="primary">app/page.tsx</Code>
-					</span>
-				</Snippet>
 			</div>
 		</section>
 	);

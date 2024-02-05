@@ -31,7 +31,6 @@ model Teacher {
   firstName String
   lastName  String
   password  String
-  isAdmin   Boolean @default(false)
 
   students  Student[]
 }
@@ -46,7 +45,6 @@ model Student {
   firstName String
   lastName  String
   password  String
-  isAdmin   Boolean @default(false)
 
   teacher   Teacher @relation(fields: [teacherId], references: [id])
 }

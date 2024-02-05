@@ -15,7 +15,7 @@ export default function Home() {
 				<br />
 				<h1 className={title()}>
 					By Actually Helping Students&nbsp;
-					<h1 className={title({ color: "violet" })}>Learn&nbsp;</h1>
+					<span className={title({ color: "violet" })}>Learn&nbsp;</span>
 				</h1>
 				<h2 className={subtitle({ class: "mt-4" })}>
 					Nothing makes a teacher happier than a student who is actually learning.

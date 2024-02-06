@@ -31,7 +31,7 @@
     "clsx": "^2.0.0",
     "eslint": "8.48.0",
     "eslint-config-next": "14.0.2",
-    "framer-motion": "^10.16.4",
+    "framer-motion": "^10.18.0",
     "intl-messageformat": "^10.5.0",
     "jose": "^5.2.1",
     "next": "14.0.2",

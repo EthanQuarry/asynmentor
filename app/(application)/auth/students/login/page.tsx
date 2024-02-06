@@ -1,3 +1,4 @@
+import { FadeInFromTop } from "@/components/animations"
 import { Authentication } from "@/components/authentication"
 import { Metadata } from "next"
 
@@ -14,7 +15,9 @@ const componentData = {
 export default function Login() {
     return (
         <div className="flex items-center justify-center h-full">
-            <Authentication />
+            <FadeInFromTop>
+                <Authentication />
+            </FadeInFromTop>
         </div>
      
     )       

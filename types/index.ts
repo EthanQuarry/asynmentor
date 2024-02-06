@@ -6,38 +6,43 @@ export type IconSvgProps = SVGProps<SVGSVGElement> & {
 
 
 export type StudentTypes = {
-  id: String;
-  teacherId: String;
-  createdAt: String;
-  updatedAt: String;
+  id: string;
+  teacherId: string;
+  createdAt: string;
+  updatedAt: string;
 
-  firstName: String;
-  lastName: String;
-  email: String;
-  password: String; 
+  firstName: string;
+  lastName: string;
+  email: string;
+  password: string; 
 
 }
 
   export type TeacherTypes = {
-    id: String;
-    createdAt: String;
-    updatedAt: String;
+    id: string;
+    createdAt: string;
+    updatedAt: string;
 
-    firstName: String;
-    lastName: String;
-    email: String;
-    password: String;
+    firstName: string;
+    lastName: string;
+    email: string;
+    password: string;
 
     students: StudentTypes[];
   }
 
   export type AdminTypes = {
-    id: String;
-    createdAt: String;
-    updatedAt: String;
+    id: string;
+    createdAt: string;
+    updatedAt: string;
 
-    firstName: String;
-    lastName: String;
-    email: String;
-    password: String;
+    firstName: string;
+    lastName: string;
+    email: string;
+    password: string;
+  }
+
+  export type UserTypes = {
+    email: string;
+    password: string;
   }

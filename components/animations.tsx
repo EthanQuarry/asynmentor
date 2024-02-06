@@ -5,13 +5,13 @@ import { motion } from 'framer-motion';
 export const FadeInFromTop = ({ children }: {children : React.ReactNode}) => {
   const animationVariants = {
     initial: {
-      y: -20, // Start 50 pixels above the final position
+      y: -20,
       opacity: 0,
     },
     animate: {
-      y: 0, // Move to the final position
+      y: 0,
       opacity: 1,
-      transition: {// This creates a more dynamic movement
+      transition: {
         stiffness: 0,
         damping: 10,
       },

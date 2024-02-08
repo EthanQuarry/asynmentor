@@ -30,10 +30,11 @@ export default function RootLayout({
 			<head />
 			<body
 				className={clsx(
-					"min-h-screen bg-background font-sans antialiased",
+					"min-h-screen font-sans antialiased",
 					fontSans.variable
 				)}
 			>
+				<div className="from-purple-600 via-purple-500 to-black absolute w-full content-['']  blur-2xl opacity-10  h-96 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] z-[-1]"></div>
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
 					<div className="relative flex flex-col h-screen">
 						<Navbar />

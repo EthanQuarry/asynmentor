@@ -67,7 +67,7 @@ export const FadeInFromTopTwo = ({ children }: {children : React.ReactNode}) => 
       y: 0,
       opacity: 1,
       transition: {
-        delay: .3,
+        delay: .4,
         stiffness: 0,
         damping: 10,
       },
@@ -95,6 +95,7 @@ export const FadeInFromTopThree = ({ children }: {children : React.ReactNode}) =
       y: 0,
       opacity: 1,
       transition: {
+        delay: 1,
         stiffness: 0,
         damping: 10,
       },

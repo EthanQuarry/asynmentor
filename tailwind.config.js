@@ -57,6 +57,13 @@ module.exports = {
                 "0px 0px 30px 0px rgb(0 0 0 / 0.04), 0px 30px 60px 0px rgb(0 0 0 / 0.12), 0px 0px 1px 0px rgb(0 0 0 / 0.3)",
             },
           },
+          colors: {
+            primary: {
+              DEFAULT: "#a855f7",
+              foreground: "#FFFFFF",
+            },
+            focus: "#000",
+          }
         },
         dark: {
           layout: {
@@ -75,7 +82,7 @@ module.exports = {
           },
           colors: {
             primary: {
-              DEFAULT: "#FFF",
+              DEFAULT: "#a855f7",
               foreground: "#000000",
             },
             focus: "#FFF",

@@ -5,12 +5,16 @@ export const siteConfig = {
 	description: "Simplify the way you send assignments to your students.",
 	navItems: [
 		{
-			label: "Features",
+			label: "Home",
 			href: "/",
 		},
 		{
-			label: "Blog",
-			href: "/docs",
+			label: "Pricing",
+			href: "/pricing",
+		},
+		{
+			label: "Login",
+			href: "/login",
 		},
 	],
 	navMenuItems: [

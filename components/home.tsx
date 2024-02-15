@@ -29,7 +29,7 @@ export default function HomeComponent() {
 
             </div>
 
-
+            <FadeInFromTopThree>
             <div className="flex gap-3">
                 <Link
                     href={"/auth/students/login"}
@@ -46,6 +46,7 @@ export default function HomeComponent() {
                     <b>How I made this →</b>
                 </Link>
             </div>
+            </FadeInFromTopThree>
         </section>
     )
 }

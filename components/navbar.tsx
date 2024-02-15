@@ -52,7 +52,11 @@ export const Navbar = () => {
 	);
 
 	return (
-		<NextUINavbar className="bg-opacity-10" maxWidth="xl" position="sticky">
+		<NextUINavbar style={{
+			background: "rgba(0, 0, 0, 0)",
+			backdropFilter: "blur(10px)",
+			borderBottom: "1px solid rgba(0, 0, 0, 0.1)",	
+		}} maxWidth="xl" position="sticky">
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">

@@ -4,7 +4,7 @@ import { Link } from "@nextui-org/link";
 import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
-import { FadeInFromTopOne, FadeInFromTopTwo } from "./animations";
+import { FadeInFromTopOne, FadeInFromTopTwo, FadeInFromTopThree } from "./animations";
 
 export default function HomeComponent() {
     return (

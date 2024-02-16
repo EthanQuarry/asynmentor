@@ -4,7 +4,7 @@ import { Link } from "@nextui-org/link";
 import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
-import { FadeInFromTopOne, FadeInFromTopTwo } from "./animations";
+import { FadeInFromTopOne, FadeInFromTopTwo, FadeInFromTopThree } from "./animations";
 
 export default function HomeComponent() {
     return (
@@ -29,7 +29,7 @@ export default function HomeComponent() {
 
             </div>
 
-
+            <FadeInFromTopThree>
             <div className="flex gap-3">
                 <Link
                     href={"/auth/students/login"}
@@ -46,6 +46,7 @@ export default function HomeComponent() {
                     <b>How I made this →</b>
                 </Link>
             </div>
+            </FadeInFromTopThree>
         </section>
     )
 }

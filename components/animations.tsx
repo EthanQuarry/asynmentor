@@ -106,7 +106,7 @@ export const FadeInFromTopThree = ({ children }: {children : React.ReactNode}) =
       initial="initial"
       animate="animate"
       variants={animationVariants}
-      transition={{ ease: "easeOut", delay: 1}}
+      transition={{ ease: "easeOut", delay: 1.2}}
     >
       {children}
     </motion.div>

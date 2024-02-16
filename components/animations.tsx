@@ -165,3 +165,57 @@ export const FadeInOnScrollOne = ({ children }: { children: React.ReactNode }) =
   ) 
 }
 
+export const FadeInOnScrollLeft = ({ children }: { children: React.ReactNode }) => {
+  
+  const { scrollY } = useScroll();
+  const controls = useAnimation();
+  
+  useEffect(() => {
+    const scrollThreshold = 350; 
+
+    const updateAnimation = () => {
+      if (scrollY.get() > scrollThreshold) {
+        controls.start({
+          opacity: 1,
+          y: 0,
+          transition: { 
+            duration: 0.5,
+            delay: 0.4 
+
+          },
+        });
+      }
+    };
+
+    updateAnimation();
+
+    const unsubscribe = scrollY.on("change",  updateAnimation);
+
+    return () => unsubscribe();
+  }, [scrollY, controls]);
+
+  const animationVariants = {
+    initial: {
+      y: -20,
+      opacity: 0,
+    },
+    animate: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        stiffness: 0,
+        damping: 10,
+      },
+    },
+  };
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: -20 }}
+      variants={animationVariants}
+      animate={controls}
+    >
+      {children}
+    </motion.div>
+  ) 
+}

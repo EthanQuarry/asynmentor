@@ -59,7 +59,7 @@ export function LandingComponentTwo() {
                 <FadeInOnScrollOne>
 
                     <h1 className={title()}>
-                    &quot;Why are you better?&quot;
+                    &quot;Why use us?&quot;
                     </h1>
                 </FadeInOnScrollOne>
                 <br />

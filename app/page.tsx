@@ -1,10 +1,13 @@
-import HomeComponent from "@/components/home";
+import { LandingComponentOne, LandingComponentTwo } from "@/components/home";
 
 
 
 export default function Home() {
 
 	return (
-		<HomeComponent />
+		<>
+		<LandingComponentOne />
+		<LandingComponentTwo />
+		</>
 	);
 }

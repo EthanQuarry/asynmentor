@@ -9,18 +9,18 @@ datasource db {
 
 // Schema for users
 model User {
-  id       String    @id
+  id       String    @id @default(uuid())
   sessions Session[]
 
   username  String
-  email     String @unique
-  firstName String
-  lastName  String
+  email     String @unique  
+  firstName String?
+  lastName  String?
 
   password String?
   role     String
 
-  createdAt DateTime  @default(now())
+  createdAt DateTime @default(now())
   updatedAt DateTime  @updatedAt
   deletedAt DateTime?
 
@@ -28,7 +28,7 @@ model User {
 }
 
 model Session {
-  id        String   @id
+  id        String   @id @default(uuid())
   userId    String
   expiresAt DateTime
   user      User     @relation(references: [id], fields: [userId], onDelete: Cascade)

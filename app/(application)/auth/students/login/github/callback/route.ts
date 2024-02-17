@@ -49,18 +49,12 @@ export async function GET(request: Request): Promise<Response> {
 		// Replace this with your own DB client.
 		await db.user.create({
             data: {
-                id: userId,
                 username: githubUser.login,
                 github_id: githubUser.id,
 
                 email: githubUser.email,
                 password: null,
                 role: "student",
-                createdAt: new Date(),
-                updatedAt: new Date(),
-
-                firstName: "",
-                lastName: "",
             }
         
         })

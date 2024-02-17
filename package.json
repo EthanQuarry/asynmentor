@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@lucia-auth/adapter-prisma": "^4.0.0",
     "@nextui-org/button": "2.0.26",
     "@nextui-org/card": "^2.0.24",
     "@nextui-org/code": "2.0.24",
@@ -33,6 +34,7 @@
     "@types/node": "20.5.7",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
+    "arctic": "^1.1.6",
     "autoprefixer": "10.4.16",
     "bcrypt": "^5.1.1",
     "clsx": "^2.0.0",
@@ -41,9 +43,11 @@
     "framer-motion": "^10.18.0",
     "intl-messageformat": "^10.5.0",
     "jose": "^5.2.1",
+    "lucia": "^3.0.1",
     "next": "14.0.2",
     "next-auth": "^4.24.5",
     "next-themes": "^0.2.1",
+    "oslo": "^1.1.1",
     "postcss": "8.4.31",
     "react": "18.2.0",
     "react-dom": "18.2.0",

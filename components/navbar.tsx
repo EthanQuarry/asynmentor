@@ -89,7 +89,7 @@ export const Navbar = () => {
 				<NavbarItem className="hidden sm:flex gap-2">
 					<ThemeSwitch />
 					<Link
-						href={"/auth/students/login"}
+						href={"/auth/students/login/github"}
 						className={buttonStyles({ color: "primary", variant: "bordered" })}>
 						Get Started for Free
 					</Link>

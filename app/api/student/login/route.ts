@@ -7,7 +7,7 @@ export async function POST(req: Request, res: Response) {
   const { email, password } = data as UserTypes;
 
   if (email != "" && password != "") {
-    const student = await db.student.findUnique({
+    const student = await db.user.findUnique({
       where: {
         email: email
       }

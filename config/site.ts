@@ -23,13 +23,18 @@ export const siteConfig = {
 			href: "/",
 		},
 		{
+			label: "Login",
+			href: "/login",
+		},
+		{
 			label: "Pricing",
 			href: "/pricing",
 		},
 		{
-			label: "Login",
-			href: "/login",
+			label: "How I built this",
+			href: "https://ethandev.me/blogs",
 		},
+
 	],
 	links: {
 		github: "https://github.com/EthanQuarry/connector-teacher-student",

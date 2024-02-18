@@ -14,7 +14,7 @@ export const siteConfig = {
 		},
 		{
 			label: "Login",
-			href: "/api/student/login/github",
+			href: "/login",
 		},
 	],
 	navMenuItems: [

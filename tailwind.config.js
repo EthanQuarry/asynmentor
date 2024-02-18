@@ -84,8 +84,12 @@ module.exports = {
             primary: {
               DEFAULT: "#a855f7",
               foreground: "#000000",
+             
             },
             focus: "#FFF",
+            background: {
+              DEFAULT: "#1e0d2b",
+            },
 
           }
         },

@@ -15,15 +15,12 @@ import { ThemeSwitch } from "@/components/theme-switch";
 import {
 	GithubIcon
 } from "@/components/icons";
-import { validateRequest } from "@/auth";
 import { Avatar } from "@nextui-org/react"
-import { getProfileImg } from "@/config/helpers/dbqueries";
 
 
 
-export const Navbar = async () => {
-    const { user } = await validateRequest();
-    const profileImg = await getProfileImg(user?.username);
+
+export const Navbar = ({profileImg}: {profileImg: string}) => {
 	return (
 		<NextUINavbar style={{
 			background: "rgba(0, 0, 0, 0)",

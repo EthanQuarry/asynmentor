@@ -1,10 +1,15 @@
 import { Navbar } from "@/components/application/navbar";
+import { getProfileImg } from "@/config/helpers/dbqueries";
+import { validateRequest } from "@/auth";
 
-export default function DashboardLayout({children}: {children: React.ReactNode}) {
+
+export default async function DashboardLayout({ children }: { children: React.ReactNode }) {
+    const { user } = await validateRequest();
+    const profileImg: string = await getProfileImg(user?.username);
     return (
         <>
-        <Navbar />
-        {children}
+            <Navbar profileImg={profileImg} />
+            {children}
         </>
     )
 }

@@ -10,10 +10,12 @@ datasource db {
 // Schema for users
 model User {
   id           String    @id @unique
+
   username     String?   @unique
   email        String?   @unique
+  profile_img   String? 
+  
   auth_session Session[]
-
   github_id Int? @unique
 }
 

@@ -34,6 +34,7 @@ export async function GET(request: Request) {
         const githubId = githubUserData.id;
         const username = githubUserData.login
         const email = githubUserData.email;
+        const profileImg: string = githubUserData.avatar_url;
 
         const userExists = await db.user.findUnique({
             where: {
@@ -61,7 +62,8 @@ export async function GET(request: Request) {
                 id: userId,
                 github_id: githubId,
                 username: username,
-                email: email
+                email: email,
+                profile_img: profileImg
             }
         })
 

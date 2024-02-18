@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@lucia-auth/adapter-prisma": "^4.0.0",
+    "@lucia-auth/oauth": "^3.5.3",
     "@nextui-org/button": "2.0.26",
     "@nextui-org/card": "^2.0.24",
     "@nextui-org/code": "2.0.24",
@@ -45,7 +46,6 @@
     "jose": "^5.2.1",
     "lucia": "^3.0.1",
     "next": "14.0.2",
-    "next-auth": "^4.24.5",
     "next-themes": "^0.2.1",
     "oslo": "^1.1.1",
     "postcss": "8.4.31",
@@ -57,6 +57,12 @@
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
-    "prisma": "^5.9.1"
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "prisma": "^5.9.1",
+    "typescript": "^5"
   }
 }

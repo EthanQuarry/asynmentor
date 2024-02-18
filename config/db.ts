@@ -17,4 +17,3 @@ if ( process.env.NODE_ENV === 'production') {
 }
 
 export const db = prisma;
-export const adapter = new PrismaAdapter(db.user, db.session);

@@ -1,90 +1,92 @@
-import { lucia } from "@/auth";
 import { github } from "@/config/providers";
+import { auth } from "@/auth";
 import { cookies } from "next/headers";
 import { OAuth2RequestError } from "arctic";
 import { generateId } from "lucia";
 import { db } from "@/config/db";
+import { user } from "@nextui-org/theme";
 
-export async function GET(request: Request): Promise<Response> {
-	const url = new URL(request.url);
-	const code = url.searchParams.get("code");
-	const state = url.searchParams.get("state");
-	const storedState = cookies().get("github_oauth_state")?.value ?? null;
-	if (!code || !state || !storedState || state !== storedState) {
-		return new Response("Failed", {
-			status: 404
-		});
-	}
 
-	try {
-		const tokens = await github.validateAuthorizationCode(code);
-		const githubUserResponse = await fetch("https://api.github.com/user", {
-			headers: {
-				Authorization: `Bearer ${tokens.accessToken}`
-			}
-		});
-		const githubUser: GitHubUser = await githubUserResponse.json();
+export async function GET(request: Request) {
+    const url = new URL(request.url);
+    const code = url.searchParams.get("code");
+    const state = url.searchParams.get("state");
+    const storedState = cookies().get("github_oauth_state")?.value;
 
-		// Replace this with your own DB client.
-		const existingUser = await db.user.findUnique({
-            where: {
-                id: githubUser.id 
+    if (!code || !state || !storedState || state !== storedState) {
+        return new Response("State mismatch", { status: 400 });
+    }
+
+
+    try {
+        const tokens = await github.validateAuthorizationCode(code);
+
+        const githubUserResponse = await fetch("https://api.github.com/user", {
+            headers: {
+                Authorization: `Bearer ${tokens.accessToken}`
             }
-        })
+        });
 
-		if (existingUser) {
-			const session = await lucia.createSession(existingUser.id, {});
-			const sessionCookie = lucia.createSessionCookie(session.id);
-			cookies().set(sessionCookie.name, sessionCookie.value, sessionCookie.attributes);
-			return new Response(null, {
-				status: 302,
-				headers: {
-					Location: "/"
-				}
-			});
-		}
+        if (!githubUserResponse.ok) {
+            throw new Error(`GitHub API request failed with status: ${githubUserResponse.status}`);
+        }
 
-		const userId = generateId(15);
-
-		// Replace this with your own DB client.
-		await db.user.create({
-            data: {
-                username: githubUser.login,
-                github_id: githubUser.id,
-
-                email: githubUser.email,
-                password: null,
-                role: "student",
-            }
+        const githubUserData = await githubUserResponse.json();
         
+        const githubId = githubUserData.id;
+        const username = githubUserData.login
+        const email = githubUserData.email;
+
+        const userExists = await db.user.findUnique({
+            where: {
+                github_id: githubId
+            }
         })
 
-		const session = await lucia.createSession(userId, {});
-		const sessionCookie = lucia.createSessionCookie(session.id);
-		cookies().set(sessionCookie.name, sessionCookie.value, sessionCookie.attributes);
-		return new Response(null, {
-			status: 302,
-			headers: {
-				Location: "/"
-			}
-		});
-	} catch (e) {
-		// the specific error message depends on the provider
-		if (e instanceof OAuth2RequestError) {
-			// invalid code
-			return new Response(null, {
-				status: 400
-			});
-		}
-		return new Response(null, {
-			status: 500
-		});
-	}
-}
+        if (userExists) {
+            const session = await auth.createSession(userExists.id, {});
+            const sessionCookie = auth.createSessionCookie(session.id);
 
-interface GitHubUser {
-	id: string;
-	login: string;
-    username: string;
-    email: string;
+            cookies().set(sessionCookie.name, sessionCookie.value, sessionCookie.attributes)
+            return new Response("User already exists", {
+                status: 302,
+                headers: {
+                    location: "/"
+                }
+            });
+        }
+
+        const userId = generateId(15);
+
+        await db.user.create({
+            data: {
+                id: userId,
+                github_id: githubId,
+                username: username,
+                email: email
+            }
+        })
+
+        const session = await auth.createSession(userId, {
+            username: username,
+            email: email,
+        });
+        
+        // const sessionCookie = auth.createSessionCookie(session.id);
+        // cookies().set(sessionCookie.name, sessionCookie.value, sessionCookie.attributes)
+        // return new Response("User Created", {
+        //     status: 302,
+        //     headers: {
+        //         location: "/"
+        //     }
+        // });
+
+        return new Response(JSON.stringify(session), {
+            headers: { 'Content-Type': 'application/json' },
+            status: 302
+        });
+    } catch (error) {
+        console.error(error);
+        return new Response("Error fetching user data from GitHub", { status: 500 });
+    }
 }

@@ -5,4 +5,3 @@
 3. NextJs
 4. Tailwind
 5. Prisma
-6. 

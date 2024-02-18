@@ -75,7 +75,7 @@ export async function GET(request: Request) {
                 location: "/dashboard"
             }
         });
-
+        // TODO: Configure incorrect credentials page.
     } catch (error) {
         console.error(error);
         return new Response("Error fetching user data from GitHub", { status: 500 });

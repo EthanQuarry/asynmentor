@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Asynmentor - A better way to send assignments.",
-	description: "Simplify the way you send assignments to your students.",
+	name: "Asynmentor - The Revolutionary Study Tool.",
+	description: "Utilising the latest technology to help you study smarter, not harder.",
 	navItems: [
 		{
 			label: "Home",
@@ -18,44 +18,22 @@ export const siteConfig = {
 		},
 	],
 	navMenuItems: [
-		{
-			label: "Profile",
-			href: "/profile",
+{
+			label: "Home",
+			href: "/",
 		},
 		{
-			label: "Dashboard",
-			href: "/dashboard",
+			label: "Pricing",
+			href: "/pricing",
 		},
 		{
-			label: "Projects",
-			href: "/projects",
-		},
-		{
-			label: "Team",
-			href: "/team",
-		},
-		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
+			label: "Login",
+			href: "/login",
 		},
 	],
 	links: {
 		github: "https://github.com/EthanQuarry/connector-teacher-student",
 		blog: "https://ethandev.me/blogs",
 		docs: "https://nextui.org",
-		discord: "https://discord.gg/9b6yyZKmH4",
-		sponsor: "https://patreon.com/jrgarciadev"
 	},
 };

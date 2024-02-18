@@ -27,12 +27,12 @@ export const siteConfig = {
 			href: "/login",
 		},
 		{
-			label: "Pricing",
+			label: "Pricing",	
 			href: "/pricing",
 		},
 		{
 			label: "How I built this",
-			href: "https://ethandev.me/blogs",
+			href: "/",
 		},
 
 	],

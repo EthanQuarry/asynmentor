@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@lucia-auth/adapter-prisma": "^4.0.0",
-    "@lucia-auth/oauth": "^3.5.3",
     "@nextui-org/button": "2.0.26",
     "@nextui-org/card": "^2.0.24",
     "@nextui-org/code": "2.0.24",

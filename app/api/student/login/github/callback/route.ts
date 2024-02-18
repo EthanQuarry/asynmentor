@@ -1,10 +1,8 @@
 import { github } from "@/config/providers";
 import { auth } from "@/auth";
 import { cookies } from "next/headers";
-import { OAuth2RequestError } from "arctic";
 import { generateId } from "lucia";
 import { db } from "@/config/db";
-import { user } from "@nextui-org/theme";
 
 
 export async function GET(request: Request) {
@@ -51,7 +49,7 @@ export async function GET(request: Request) {
             return new Response("User already exists", {
                 status: 302,
                 headers: {
-                    location: "/"
+                    location: "/dashboard"
                 }
             });
         }
@@ -67,24 +65,17 @@ export async function GET(request: Request) {
             }
         })
 
-        const session = await auth.createSession(userId, {
-            username: username,
-            email: email,
-        });
+        const session = await auth.createSession(userId, {});
         
-        // const sessionCookie = auth.createSessionCookie(session.id);
-        // cookies().set(sessionCookie.name, sessionCookie.value, sessionCookie.attributes)
-        // return new Response("User Created", {
-        //     status: 302,
-        //     headers: {
-        //         location: "/"
-        //     }
-        // });
-
-        return new Response(JSON.stringify(session), {
-            headers: { 'Content-Type': 'application/json' },
-            status: 302
+        const sessionCookie = auth.createSessionCookie(session.id);
+        cookies().set(sessionCookie.name, sessionCookie.value, sessionCookie.attributes)
+        return new Response("User Created", {
+            status: 302,
+            headers: {
+                location: "/dashboard"
+            }
         });
+
     } catch (error) {
         console.error(error);
         return new Response("Error fetching user data from GitHub", { status: 500 });

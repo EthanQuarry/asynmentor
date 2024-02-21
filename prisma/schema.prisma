@@ -16,7 +16,6 @@ model User {
   profile_img   String? 
   
   auth_session Session[]
-  github_id Int? @unique
 }
 
 model Session {
@@ -26,4 +25,11 @@ model Session {
   user      User     @relation(references: [id], fields: [userId], onDelete: Cascade)
 
   @@index([userId])
+}
+
+
+model OauthAccount {
+  provider_id String @id
+  provider_user_id String
+  user_id String
 }

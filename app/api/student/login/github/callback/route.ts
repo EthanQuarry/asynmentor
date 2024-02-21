@@ -25,9 +25,6 @@ export async function GET(request: Request) {
             }
         });
 
-        if (!githubUserResponse.ok) {
-            throw new Error(`GitHub API request failed with status: ${githubUserResponse.status}`);
-        }
 
         const githubUserData = await githubUserResponse.json();
         

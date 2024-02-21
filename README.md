@@ -5,4 +5,6 @@
 3. NextJs
 4. Tailwind
 5. Prisma
-6. 
+6. PostgreSQL
+7. Vercel
+8. OpenAI

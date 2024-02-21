@@ -9,13 +9,14 @@ datasource db {
 
 // Schema for users
 model User {
-  id           String    @id @unique
+  id String @id @unique
 
-  username     String?   @unique
-  email        String?   @unique
-  profile_img   String? 
-  
+  username    String?
+  email       String? 
+  profile_img String?
+
   auth_session Session[]
+  OauthAccount OauthAccount[]
 }
 
 model Session {
@@ -27,9 +28,9 @@ model Session {
   @@index([userId])
 }
 
-
 model OauthAccount {
-  provider_id String @id
-  provider_user_id String
-  user_id String
+  provider_id      String 
+  provider_user_id String @id
+  user_id          String
+  user             User   @relation(references: [id], fields: [user_id])
 }

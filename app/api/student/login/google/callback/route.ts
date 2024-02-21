@@ -28,15 +28,83 @@ export async function GET(request: Request) {
 
         console.log("User: ", user);    
 
+        const googleId = user.sub;
+        const username = user.given_name;
+        const email = user.email;
+        const profileImg: string = user.picture;
 
 
 
-        return new Response(`Google API request failed with status: `, { status: 500 });
+        const userExists = await db.oauthAccount.findMany({
+            where: {
+                AND: [
+                    {
+                        provider_id: "google"
+                    },
+                    {
+                        provider_user_id: googleId
+                    }
+                ]
+            }
+        })
 
+        console.log("UserExists: ", userExists)
+
+
+        if (userExists.length > 0) {
+            const user = await db.user.findUnique({
+                where: {
+                    id: userExists[0].user_id
+                }
+            });
+
+            if (user) {
+                const session = await auth.createSession(user.id, {});
+                const sessionCookie = auth.createSessionCookie(session.id);
+    
+                cookies().set(sessionCookie.name, sessionCookie.value, sessionCookie.attributes)
+                return new Response("User already exists", {
+                    status: 302,
+                    headers: {
+                        location: "/dashboard"
+                    }
+                });
+            }
+        }
+
+
+        const userId = generateId(15);
+
+        await db.user.create({
+            data: {
+                id: userId,
+                username: username,
+                email: email,
+                profile_img: profileImg
+            }
+        })
+
+        await db.oauthAccount.create({
+            data: {
+                provider_id: "google",
+                provider_user_id: googleId,
+                user_id: userId
+            }
+        })
+
+        const session = await auth.createSession(userId, {});
+        
+        const sessionCookie = auth.createSessionCookie(session.id);
+        cookies().set(sessionCookie.name, sessionCookie.value, sessionCookie.attributes)
+        return new Response("User Created", {
+            status: 302,
+            headers: {
+                location: "/dashboard"
+            }
+        });
+        // TODO: Configure incorrect credentials page.
+    } catch (error) {
+        console.error(error);
+        return new Response("Error fetching user data from Google", { status: 500 });
     }
-
-    catch (e: any) {
-        return new Response(e, { status: 500 });
-    }
-
 }

@@ -27,45 +27,71 @@ export async function GET(request: Request) {
 
 
         const githubUserData = await githubUserResponse.json();
-        
-        const githubId = githubUserData.id;
+
+        const githubId = (githubUserData.id).toString();
         const username = githubUserData.login
         const email = githubUserData.email;
         const profileImg: string = githubUserData.avatar_url;
 
-        const userExists = await db.user.findUnique({
+        const userExists = await db.oauthAccount.findMany({
             where: {
-                github_id: githubId
+                AND: [
+                    {
+                        provider_id: "github"
+                    },
+                    {
+                        provider_user_id: githubId
+                    }
+                ]
             }
         })
 
-        if (userExists) {
-            const session = await auth.createSession(userExists.id, {});
-            const sessionCookie = auth.createSessionCookie(session.id);
-
-            cookies().set(sessionCookie.name, sessionCookie.value, sessionCookie.attributes)
-            return new Response("User already exists", {
-                status: 302,
-                headers: {
-                    location: "/dashboard"
+        if (userExists.length > 0) {
+            const user = await db.user.findUnique({
+                where: {
+                    id: userExists[0].user_id
                 }
             });
+
+            if (user) {
+                const session = await auth.createSession(user.id, {});
+                const sessionCookie = auth.createSessionCookie(session.id);
+
+                cookies().set(sessionCookie.name, sessionCookie.value, sessionCookie.attributes)
+                return new Response("User already exists", {
+                    status: 302,
+                    headers: {
+                        location: "/dashboard"
+                    }
+                });
+            }
         }
+
+
+
+
 
         const userId = generateId(15);
 
         await db.user.create({
             data: {
                 id: userId,
-                github_id: githubId,
                 username: username,
                 email: email,
                 profile_img: profileImg
             }
         })
 
+        await db.oauthAccount.create({
+            data: {
+                provider_id: "github",
+                provider_user_id: githubId,
+                user_id: userId
+            }
+        })
+
         const session = await auth.createSession(userId, {});
-        
+
         const sessionCookie = auth.createSessionCookie(session.id);
         cookies().set(sessionCookie.name, sessionCookie.value, sessionCookie.attributes)
         return new Response("User Created", {

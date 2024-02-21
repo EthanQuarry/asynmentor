@@ -5,7 +5,7 @@ import { validateRequest } from "@/auth";
 
 export default async function DashboardLayout({ children }: { children: React.ReactNode }) {
     const { user } = await validateRequest();
-    const profileImg: string = await getProfileImg(user?.username);
+    const profileImg: string = await getProfileImg(user?.id);
     return (
         <>
             <Navbar profileImg={profileImg} />

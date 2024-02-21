@@ -1,10 +1,10 @@
 import { db } from "@/config/db";
 
 
-export const getProfileImg = async (username: string | undefined) => {
+export const getProfileImg = async (id: string | undefined) => {
     const user = await db.user.findUnique({
         where: {
-            username: username
+            id: id
         }
     })
     if (user && user.profile_img) {

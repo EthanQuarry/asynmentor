@@ -26,8 +26,6 @@ export async function GET(request: Request) {
         });
         const user = await response.json();
 
-        console.log("User: ", user);    
-
         const googleId = user.sub;
         const username = user.given_name;
         const email = user.email;
@@ -47,8 +45,6 @@ export async function GET(request: Request) {
                 ]
             }
         })
-
-        console.log("UserExists: ", userExists)
 
 
         if (userExists.length > 0) {

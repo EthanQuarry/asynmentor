@@ -13,17 +13,19 @@ export function LandingComponentOne() {
             <div className="inline-block max-w-lg text-center justify-center">
                 <FadeInFromTopOne>
                     <h1 className={title({ color: "violet" })}>
-                        Asynmentor,
+                        <i>Asynmentor,</i>
                     </h1>
                     <br />
                     <h1 className={title()}>
-                        The <i>Revolutionary</i> Study Tool
+                        The <i>New</i> Study Tool
                     </h1>
                 </FadeInFromTopOne>
                 <br />
                 <FadeInFromTopTwo>
                     <h2 className={subtitle({ class: "mt-4" })}>
-                        Utilising the latest technology to help you study smarter, not harder.
+                        For Leaving students who don&apos;t have time to study. 
+                        <br />
+                        <i className="inline-block text-transparent font-semibold bg-gradient-to-r bg-clip-text from-[#FF1CF7] to-[#b249f8]">Asynmentor</i> allows you to <i className="font-semibold">learn</i>, <i className="font-semibold">understand</i> and <i className="font-semibold">test</i> yourself, <i className="font-semibold">quickly</i>.
                     </h2>
                 </FadeInFromTopTwo>
 

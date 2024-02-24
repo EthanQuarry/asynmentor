@@ -60,7 +60,7 @@ export const Navbar = () => {
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">
 						
-						<p className="font-bold text-inherit">Asynmentor</p>
+					<i className="inline-block text-transparent font-semibold bg-gradient-to-r bg-clip-text from-[#FF1CF7] to-[#b249f8]">Asynmentor</i>
 					</NextLink>
 				</NavbarBrand>
 			</NavbarContent>

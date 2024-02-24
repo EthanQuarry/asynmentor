@@ -8,7 +8,7 @@ export default function NavBreadCrumbs() {
     return (
         <>
             <Breadcrumbs>
-                <BreadcrumbItem><div className="text-xl">Home</div></BreadcrumbItem>
+                <BreadcrumbItem><h2 className={subtitle()}>Home</h2></BreadcrumbItem>
                 <BreadcrumbItem><h2 className={subtitle()}>Maths</h2></BreadcrumbItem>
             </Breadcrumbs>
         </>

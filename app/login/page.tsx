@@ -1,9 +1,16 @@
 
 import { LogosGithubIcon } from "@/config/icons";
 import { Button } from "@nextui-org/button";
-import Link from "next/link";
+import { redirect } from "next/navigation";
 
-export default function Page() {
+import Link from "next/link";
+import { validateRequest } from "@/auth";
+
+export default async function Page() {
+    const { user } = await validateRequest();
+    if (user) {
+        return redirect("/dashboard");
+    }
     return (
         <div className="flex flex-col space-y-10 lg:w-full">
 

@@ -10,9 +10,9 @@ export default async function DashboardLayout({ children }: { children: React.Re
     return (
         <>
             <Navbar profileImg={profileImg} />
-            <Divider />
+            <Divider className="" />
             {children}
-            <div className="h-72 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-500 via-purple-800 to-black absolute w-full content-[''] blur-2xl opacity-20 z-[-1]"></div>
+            <div className="md:left-[20%] h-[500px] w-[500px] bg-[radial-gradient(ellipse_at_40%_50%,_var(--tw-gradient-stops))] from-[#E400DA]  to-transparent     absolute content-[''] blur-3xl opacity-20 z-10"></div>
         </>
     )
 }

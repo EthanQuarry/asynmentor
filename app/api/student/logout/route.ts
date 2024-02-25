@@ -2,14 +2,12 @@ import { auth, validateRequest } from "@/auth";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 
-export async function GET() {
+export async function GET(): Promise<void | Response> {
     const { session } = await validateRequest();
-	if (!session) {
-		return {
-			error: "Unauthorized"
-		};
-	}
 
+    if (!session) {
+        return redirect("/login");
+    }
 	await auth.invalidateSession(session.id);
 
 	const sessionCookie = auth.createBlankSessionCookie();

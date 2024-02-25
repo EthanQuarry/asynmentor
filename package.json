@@ -28,7 +28,7 @@
     "@opentelemetry/sdk-node": "^0.48.0",
     "@opentelemetry/sdk-trace-node": "^1.21.0",
     "@opentelemetry/semantic-conventions": "^1.21.0",
-    "@prisma/client": "^5.9.1",
+    "@prisma/client": "^5.10.2",
     "@react-aria/ssr": "^3.8.0",
     "@react-aria/visually-hidden": "^3.8.6",
     "@types/node": "20.5.7",

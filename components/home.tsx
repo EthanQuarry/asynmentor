@@ -5,6 +5,7 @@ import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { FadeInFromTopOne, FadeInFromTopTwo, FadeInFromTopThree, FadeInOnScrollOne, FadeInOnScrollLeft } from "./animations";
+import { Button } from "@nextui-org/button";
 
 export function LandingComponentOne() {
     return (
@@ -23,7 +24,7 @@ export function LandingComponentOne() {
                 <br />
                 <FadeInFromTopTwo>
                     <h2 className={subtitle({ class: "mt-4" })}>
-                        For Leaving students who don&apos;t have time to study. 
+                        For Leaving students who don&apos;t have time to study.
                         <br />
                         <i className="inline-block text-transparent font-semibold bg-gradient-to-r bg-clip-text from-[#FF1CF7] to-[#b249f8]">Asynmentor</i> allows you to <i className="font-semibold">learn</i>, <i className="font-semibold">understand</i> and <i className="font-semibold">test</i> yourself, <i className="font-semibold">quickly</i>.
                     </h2>
@@ -32,22 +33,25 @@ export function LandingComponentOne() {
             </div>
 
             <FadeInFromTopThree>
-            <div className="flex gap-3">
-                <Link
-                    href={"/auth/students/login"}
-                    className={buttonStyles({ color: "primary", variant: "bordered" })}
-                >
-                    <b>Get Started for Free</b>
-                </Link>
-                <Link
-                    isExternal
-                    className={buttonStyles({ variant: "light" })}
-                    href={siteConfig.links.blog}
-                >
+                <div className="flex flex-col">
+                    <Link
+                        href={"/login"}
+                    >
+                        <Button
+                            className={buttonStyles({ color: "primary", variant: "ghost", size: "lg", radius: "sm"})}
+                        >
+                            Get Started For Free
+                        </Button>
+                    </Link>
+                    <Link
+                        isExternal
+                        className={buttonStyles({ variant: "light" })}
+                        href={siteConfig.links.blog}
+                    >
 
-                    <b>How I made this →</b>
-                </Link>
-            </div>
+                        <b className="opacity-40">How I made this →</b>
+                    </Link>
+                </div>
             </FadeInFromTopThree>
         </section>
     )
@@ -61,7 +65,7 @@ export function LandingComponentTwo() {
                 <FadeInOnScrollOne>
 
                     <h1 className={title()}>
-                    &quot;Why use us?&quot;
+                        &quot;Why use us?&quot;
                     </h1>
                 </FadeInOnScrollOne>
                 <br />

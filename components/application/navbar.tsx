@@ -15,7 +15,7 @@ import { ThemeSwitch } from "@/components/theme-switch";
 import {
 	GithubIcon
 } from "@/components/icons";
-import { Avatar } from "@nextui-org/react"
+import { Avatar, Chip } from "@nextui-org/react"
 
 
 
@@ -29,10 +29,11 @@ export const Navbar = ({profileImg}: {profileImg: string}) => {
 		}} maxWidth="xl" position="sticky">
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
-					<NextLink className="flex justify-start items-center gap-1" href="/">
+				<NextLink className="flex justify-start items-center gap-1" href="/">
 						
-						<p className="font-bold text-inherit">Asynmentor</p>
-					</NextLink>
+						<i className="inline-block text-transparent font-semibold bg-gradient-to-r bg-clip-text from-[#FF1CF7] to-[#b249f8]">Asynmentor</i>
+						</NextLink>
+						<Chip color="success" variant="bordered" size="sm">Beta</Chip>
 				</NavbarBrand>
 			</NavbarContent>
 

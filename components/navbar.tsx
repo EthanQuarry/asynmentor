@@ -12,6 +12,7 @@ import { Link } from "@nextui-org/link";
 import { Input } from "@nextui-org/input";
 import { button as buttonStyles } from "@nextui-org/theme";
 import { link as linkStyles } from "@nextui-org/theme";
+import {Chip} from "@nextui-org/react";
 
 import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
@@ -19,36 +20,12 @@ import clsx from "clsx";
 
 import { ThemeSwitch } from "@/components/theme-switch";
 import {
-	TwitterIcon,
 	GithubIcon,
-	DiscordIcon,
-	HeartFilledIcon,
 	SearchIcon,
 } from "@/components/icons";
-
-import { Logo } from "@/components/icons";
+import { Button } from "@nextui-org/button";
 
 export const Navbar = () => {
-	const searchInput = (
-		<Input
-			aria-label="Search"
-			classNames={{
-				inputWrapper: "bg-default-100",
-				input: "text-sm",
-			}}
-			endContent={
-				<Kbd className="hidden lg:inline-block" keys={["command"]}>
-					K
-				</Kbd>
-			}
-			labelPlacement="outside"
-			placeholder="Search..."
-			startContent={
-				<SearchIcon className="text-base text-default-400 pointer-events-none flex-shrink-0" />
-			}
-			type="search"
-		/>
-	);
 
 	return (
 		<NextUINavbar style={{
@@ -62,6 +39,7 @@ export const Navbar = () => {
 						
 					<i className="inline-block text-transparent font-semibold bg-gradient-to-r bg-clip-text from-[#FF1CF7] to-[#b249f8]">Asynmentor</i>
 					</NextLink>
+					<Chip color="success" variant="bordered" size="sm">Beta</Chip>
 				</NavbarBrand>
 			</NavbarContent>
 
@@ -89,10 +67,14 @@ export const Navbar = () => {
 				<NavbarItem className="hidden sm:flex gap-2">
 					<ThemeSwitch />
 					<Link
-						href={"/api/student/login/github"}
-						className={buttonStyles({ color: "primary", variant: "bordered" })}>
-						Get Started for Free
-					</Link>
+                        href={"/login"}
+                    >
+                        <Button
+                            className={buttonStyles({ color: "primary", variant: "ghost", size: "md", radius: "sm"})}
+                        >
+                            Get Started For Free
+                        </Button>
+                    </Link>
 				</NavbarItem>
 
 			</NavbarContent>

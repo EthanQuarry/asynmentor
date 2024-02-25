@@ -9,7 +9,7 @@ import { validateRequest } from "@/auth";
 export default async function Page() {
     const { user } = await validateRequest();
     if (user) {
-        return redirect("/dashboard");
+        return redirect("/leaving-cert/maths");
     }
     return (
         <div className="flex flex-col space-y-10 lg:w-full">

@@ -2,7 +2,7 @@ import { auth, validateRequest } from "@/auth";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 
-export async function GET(): Promise<ActionResult> {
+export async function GET() {
     const { session } = await validateRequest();
 	if (!session) {
 		return {

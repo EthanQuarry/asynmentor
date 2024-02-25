@@ -17,7 +17,6 @@ export async function GET(request: Request) {
 
     try {
         const tokens = await google.validateAuthorizationCode(code, codeVerifier);
-        console.log("Access token: ", tokens.accessToken);
 
         const response = await fetch("https://openidconnect.googleapis.com/v1/userinfo", {
             headers: {

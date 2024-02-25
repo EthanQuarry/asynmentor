@@ -10,5 +10,5 @@ export const getProfileImg = async (id: string | undefined) => {
     if (user && user.profile_img) {
         return user.profile_img
     }
-    else return ""
+    else return "https://www.google.com/url?sa=i&url=https%3A%2F%2Ficonduck.com%2Ficons%2F251659%2Fprofile&psig=AOvVaw22Qjh-Mmyqu9kXJqqGhCBg&ust=1708956814294000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLDavrDWxoQDFQAAAAAdAAAAABAE"
 }

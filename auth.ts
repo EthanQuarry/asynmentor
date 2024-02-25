@@ -1,10 +1,11 @@
-import { Lucia, TimeSpan } from "lucia";
+import { Lucia } from "lucia";
 import { PrismaAdapter } from "@lucia-auth/adapter-prisma";
 import { db } from "@/config/db";
 import { cookies } from "next/headers";
 import { cache } from "react";
 
 import type { Session, User } from "lucia";
+import { redirect } from "next/navigation";
 
 const adapter = new PrismaAdapter(db.session, db.user);;
 
@@ -62,3 +63,4 @@ interface DatabaseUserAttributes {
 	github_id: number;
 	username: string;
 }
+

@@ -1,3 +1,5 @@
+"use client"
+
 import {
 	Navbar as NextUINavbar,
 	NavbarContent,
@@ -16,11 +18,12 @@ import {
 	GithubIcon
 } from "@/components/icons";
 import { Avatar, Chip } from "@nextui-org/react"
+import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button } from "@nextui-org/react";
 
 
 
 
-export const Navbar = ({profileImg}: {profileImg: string}) => {
+export const Navbar = ({ profileImg }: { profileImg: string }) => {
 	return (
 		<NextUINavbar style={{
 			background: "rgba(0, 0, 0, 0)",
@@ -29,11 +32,11 @@ export const Navbar = ({profileImg}: {profileImg: string}) => {
 		}} maxWidth="xl" position="sticky">
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
-				<NextLink className="flex justify-start items-center gap-1" href="/">
-						
+					<NextLink className="flex justify-start items-center gap-1" href="/">
+
 						<i className="inline-block text-transparent font-semibold bg-gradient-to-r bg-clip-text from-[#FF1CF7] to-[#b249f8]">Asynmentor</i>
-						</NextLink>
-						<Chip color="success" variant="bordered" size="sm">Beta</Chip>
+					</NextLink>
+					<Chip color="success" variant="bordered" size="sm">Beta</Chip>
 				</NavbarBrand>
 			</NavbarContent>
 
@@ -43,7 +46,26 @@ export const Navbar = ({profileImg}: {profileImg: string}) => {
 			>
 
 				<NavbarItem className="hidden sm:flex gap-2">
-                <Avatar isBordered src={profileImg} />
+					<Dropdown>
+						<DropdownTrigger>
+						<Avatar isBordered src={profileImg} />
+						</DropdownTrigger>
+						<DropdownMenu
+							aria-label="Action event example"
+							onAction={(key) => {
+								if (key === "log-out") {
+									fetch("/api/student/logout").then(() => window.location.reload())
+								}
+							
+							}}
+						>
+							{/* TODO: Add Edit Profile or something */}
+							{/* <DropdownItem key="edit">Edit file</DropdownItem> */}
+							<DropdownItem key="log-out" className="text-danger" color="danger">
+								Log Out
+							</DropdownItem>
+						</DropdownMenu>
+					</Dropdown>
 				</NavbarItem>
 
 			</NavbarContent>

@@ -12,6 +12,20 @@ export const maths = {
                 "Arithmetic and Geometric Progressions",
                 "Logarithms",
                 "Exponential Functions"
+            ],
+            questions: [
+                {
+                    title: "2023 - Paper 1 - Q1",
+                    url: "https://blob-static.studyclix.ie/cms/media/pdfSelections/0582746e-f764-4100-a346-5be17e107cc0.png",
+                },
+                {
+                    title: "2023 - Paper 1 - Q3 - (a)",
+                    url: "https://blob-static.studyclix.ie/cms/media/pdfSelections/971d05cd-9941-4dac-9781-3b39d9146669.png",
+                },
+                {
+                    title: "2022 - Paper 1 - Q1",
+                    url: "https://blob-static.studyclix.ie/cms/media/pdfSelections/d1c99f59-a7e8-4340-a6c0-839241c04d7b.png"
+                }
             ]
         },
         {
@@ -85,7 +99,7 @@ export const maths = {
                 "Statistics",
                 "Regression",
                 "Correlation"
-            ]
+            ],
         },
         {
             name: "induction",

@@ -24,7 +24,7 @@ export function LandingComponentOne() {
                 <br />
                 <FadeInFromTopTwo>
                     <h2 className={subtitle({ class: "mt-4" })}>
-                        For Leaving students who don&apos;t have time to study.
+                        For Leaving Cert students who don&apos;t have time to study.
                         <br />
                         <i className="inline-block text-transparent font-semibold bg-gradient-to-r bg-clip-text from-[#FF1CF7] to-[#b249f8]">Asynmentor</i> allows you to <i className="font-semibold">learn</i>, <i className="font-semibold">understand</i> and <i className="font-semibold">test</i> yourself, <i className="font-semibold">quickly</i>.
                     </h2>

@@ -1,14 +1,18 @@
-import { createWorker } from 'tesseract.js';
+import { Tesseract } from 'tesseract.ts';
 
-  const worker = createWorker({
-  logger: m => console.log(m)
-  });
-
-  (async () => {
-  await worker.load();
-  await worker.loadLanguage('eng');
-  await worker.initialize('eng');
-  const { data: { text } } = await     worker.recognize('https://tesseract.projectnaptha.com/img/eng_bw.png');
- console.log(text);
- await worker.terminate();
-})();
+export const imageToText = async (imagePath: string) => {
+    Tesseract.recognize(imagePath)
+    .progress(console.log)
+    .then((response: OCRResponse) => {
+        const { text, confidence } = response;
+        console.log(`Text: ${text}`);
+        console.log(`Confidence: ${confidence}`);
+        
+        return text
+    })
+    .catch(console.error);
+}
+interface OCRResponse {
+    confidence: number;
+    text: string;
+}

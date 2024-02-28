@@ -34,3 +34,35 @@ model OauthAccount {
   user_id          String
   user             User   @relation(references: [id], fields: [user_id])
 }
+
+
+// Schema for subject question categorisation
+
+model Questions {
+  fullName String @id @unique
+  questionSections QuestionSections[]
+  markingSchemeSections MarkingSchemeSections[]
+  questionThumbnail String?
+  markingSchemeThumbnail String?
+  year String
+  subject String
+  name String
+}
+
+model QuestionSections {
+  imageUrl String @id @unique
+  thumbnailUrl String
+  questionId String
+  question Questions @relation(fields: [questionId], references: [fullName])
+  aspectRatio Float
+  index Int
+}
+
+model MarkingSchemeSections {
+  imageUrl String @id @unique
+  thumbnailUrl String
+  questionId String
+  question Questions @relation(fields: [questionId], references: [fullName])
+  aspectRatio Float
+  index Int
+}

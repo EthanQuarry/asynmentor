@@ -1,0 +1,3996 @@
+[
+    {
+        "fullName": "2023 - Mock Paper 1 (Option A) - Section A - Question 1",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.0338852,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/db38ff09-247c-499f-bd90-f47ceea1844d.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/7c681394-9d96-4101-8878-f08727eec38b.png"
+            },
+            {
+                "aspectRatio": 1.319147,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/00b30b88-0b02-428f-8f6d-a60815f21ae3.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/8ab6f380-7522-4e6f-ac6d-3ad24cf4910f.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.9292514,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/c89cfe3c-5f13-483a-a811-c4176a26f30b.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/6557d0c4-4fc6-4d58-8828-3b4c54d44d3b.png"
+            },
+            {
+                "aspectRatio": 0.7055164,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/11af89d0-874d-4b63-bf6d-3e17cebea924.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/ce9bedc5-71cb-403c-97f6-8c9fc17d73a6.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/205571c2-1497-4046-bea2-8e7e5e0671a4.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1657284,
+                "name": "Leaving Cert Higher Level Maths - 2023 Mock P1 (Option A) Q1",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2023/mock-paper-1-option-a/solutions/leaving-cert-higher-level-maths-2023-mock-p1-option-a-q1/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/7c681394-9d96-4101-8878-f08727eec38b.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/6557d0c4-4fc6-4d58-8828-3b4c54d44d3b.png",
+        "year": "2023",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1651834,
+        "name": "Question 1",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2023/mock-paper-1-option-a/section-a/question-1/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2023 - Paper One - Part A - Question 1",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.0137035,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/0582746e-f764-4100-a346-5be17e107cc0.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/64d0f69c-5006-4fcb-b6b6-1c41d6d19de4.png"
+            },
+            {
+                "aspectRatio": 0.8301857,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/0ea784d2-f032-4b7a-bb8e-628aacd970b5.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/90e6b3de-76e1-4c69-a732-b70b97da44eb.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.8957095,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/e6c13657-81b0-410e-add3-f3ed6d560bce.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/93e018d5-6006-47c5-9e26-14e332bf08f5.png"
+            },
+            {
+                "aspectRatio": 0.27984473,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/6ac8779c-95b4-4fe6-a7fd-29e1a8bc62ff.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/028293e3-c70c-4448-97b5-7540077dee75.png"
+            },
+            {
+                "aspectRatio": 1.228491,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/075aa947-a609-4297-94e6-cb7667afcdb7.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/fbb1469c-3584-4592-b887-16d34f395dee.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/f15be123-6f65-4a31-a423-b372ac6ba19b.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1695216,
+                "name": "Studyclix: Leaving Cert Maths – 2023 State Higher P1 Q1",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2023/paper-one/solutions/studyclix-leaving-cert-maths-2023-state-higher-p1-q1/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/64d0f69c-5006-4fcb-b6b6-1c41d6d19de4.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/93e018d5-6006-47c5-9e26-14e332bf08f5.png",
+        "year": "2023",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1685647,
+        "name": "Question 1",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2023/paper-one/part-a/question-1/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2023 - Mock Paper 1 (Option A) - Section A - Question 3",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.2606392,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/89292054-deb2-4598-a9f2-f08aab4ceeab.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/4b5aa726-0957-41a2-adb0-d3e0fbd27964.png"
+            },
+            {
+                "aspectRatio": 1.2047592,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/45f6914a-44b8-40df-9b72-3c8cf96272d3.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/f85356c5-497f-4e82-b240-adaed4023e34.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 1.1465719,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/20dca8e4-c9a2-4bc0-868e-49ea28265792.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/59e73c5c-f870-4cf5-9946-9b9de004dba0.png"
+            },
+            {
+                "aspectRatio": 0.48869225,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/414fb4f0-676f-4dc4-8007-982052dc7b06.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/716b3885-8ec5-4ef7-a490-c250b7b2c766.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009,
+            1045648
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/eff13083-1267-45e0-af7b-478c573b4509.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1657286,
+                "name": "Leaving Cert Higher Level Maths - 2023 Mock P1 (Option A) Q3",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2023/mock-paper-1-option-a/solutions/leaving-cert-higher-level-maths-2023-mock-p1-option-a-q3/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/4b5aa726-0957-41a2-adb0-d3e0fbd27964.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/59e73c5c-f870-4cf5-9946-9b9de004dba0.png",
+        "year": "2023",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1651837,
+        "name": "Question 3",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2023/mock-paper-1-option-a/section-a/question-3/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2023 - Paper One - Part A - Question 3 - Part A",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.8155196,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/971d05cd-9941-4dac-9781-3b39d9146669.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/390e3497-0759-4cfe-bd3e-c5696f181bb3.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.4800651,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/35d08fc0-43b7-4541-b061-0b35b4cf52b9.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/75dcf641-57c4-4cd9-8b42-2f8999aca992.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/a3f32a47-8e74-4c6f-9718-9ce728d68294.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1695282,
+                "name": "Studyclix: Leaving Cert Maths – 2023 State Higher P1 Q3",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2023/paper-one/solutions/studyclix-leaving-cert-maths-2023-state-higher-p1-q3/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/390e3497-0759-4cfe-bd3e-c5696f181bb3.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/75dcf641-57c4-4cd9-8b42-2f8999aca992.png",
+        "year": "2023",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1686653,
+        "name": "Part A",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2023/paper-one/part-a/question-3/part-a/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2023 - Mock Paper 1 (Option A) - Section A - Question 6 - Part a",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.2379189,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/c5d17883-43ba-4d5f-80c3-672c3317782a.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/44c3be51-c331-4b31-9c42-f4f56f214eef.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.46787483,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/835937dd-fa6e-4ec2-98ff-5f636aaf0a72.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/671aa8f4-cfc2-4af7-aee9-dc451f3e2eef.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009,
+            1045008
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/ba257789-1033-4d5a-916a-7e5dae16c23c.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1657298,
+                "name": "Leaving Cert Higher Level Maths - 2023 Mock P1 (Option A) Q6",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2023/mock-paper-1-option-a/solutions/leaving-cert-higher-level-maths-2023-mock-p1-option-a-q6/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/44c3be51-c331-4b31-9c42-f4f56f214eef.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/671aa8f4-cfc2-4af7-aee9-dc451f3e2eef.png",
+        "year": "2023",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1651842,
+        "name": "Part a",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2023/mock-paper-1-option-a/section-a/question-6/part-a/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2023 - Mock Paper 1 (Option B) - Section A - Question 1",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.1333201,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/f7b355b9-294c-410f-8a40-cfea0c48fbaa.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/447f3424-bdb4-4e22-be8c-1b23d6d9cd9f.png"
+            },
+            {
+                "aspectRatio": 1.2136751,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/99e2266b-554a-4573-9e9c-786a90a6e00d.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/524ceca0-03d6-4da9-a12f-6070bcd9510a.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.7931154,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/46dc398a-69e3-4a93-9035-f1fb01506e2c.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/5123977d-73dc-4ba6-8b37-844c25a6af7e.png"
+            },
+            {
+                "aspectRatio": 0.7576338,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/04f63602-a5f3-4ff7-9136-fb15502a8359.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/3f7c29fa-2696-4c4b-bda0-2aadd0cd9426.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/b380a882-a749-4786-8f99-d738c2a955b1.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1657342,
+                "name": "Leaving Cert Higher Level Maths - 2023 Mock P1 (Option B) Q1",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2023/mock-paper-1-option-b/solutions/leaving-cert-higher-level-maths-2023-mock-p1-option-b-q1/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/447f3424-bdb4-4e22-be8c-1b23d6d9cd9f.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/5123977d-73dc-4ba6-8b37-844c25a6af7e.png",
+        "year": "2023",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1652893,
+        "name": "Question 1",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2023/mock-paper-1-option-b/section-a/question-1/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2023 - Mock Paper 1 (Option B) - Section A - Question 2 - Part A, B",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.2261981,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/2e27bbe4-8def-469c-88e1-9634afcf1287.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/d5a7cd0f-4a97-4753-a86d-f171ecebadbb.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.48743358,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/118d3fce-ce86-4d1a-938d-fb7e9641b7a9.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/f4aabb0f-eee4-4653-a183-5cee26d1f762.png"
+            },
+            {
+                "aspectRatio": 0.28912243,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/6e55490c-ec3e-4989-ba58-cd6cd1a52b29.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/75faa87e-47fb-4eda-b7b0-c7d3d3eb821c.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/c7d95307-f406-49ff-a7a9-aa228fa6bfc2.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1657350,
+                "name": "Leaving Cert Higher Level Maths - 2023 Mock P1 (Option B) Q2",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2023/mock-paper-1-option-b/solutions/leaving-cert-higher-level-maths-2023-mock-p1-option-b-q2/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/d5a7cd0f-4a97-4753-a86d-f171ecebadbb.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/f4aabb0f-eee4-4653-a183-5cee26d1f762.png",
+        "year": "2023",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1652904,
+        "name": "Part A, B",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2023/mock-paper-1-option-b/section-a/question-2/part-a-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2023 - Mock Paper 1 (Option B) - Section A - Question 2 - Part D",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.67623514,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/48821dca-35bf-4e50-bd5a-a4b7298e8930.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/a5259a01-ac03-4811-9ef5-61f34c888511.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.42793456,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/8531c4de-e738-4708-a841-2a5c254630fc.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/ae6de883-c9e2-4241-bb5c-fbb53da6ab2e.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/c7d95307-f406-49ff-a7a9-aa228fa6bfc2.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1657350,
+                "name": "Leaving Cert Higher Level Maths - 2023 Mock P1 (Option B) Q2",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2023/mock-paper-1-option-b/solutions/leaving-cert-higher-level-maths-2023-mock-p1-option-b-q2/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/a5259a01-ac03-4811-9ef5-61f34c888511.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/ae6de883-c9e2-4241-bb5c-fbb53da6ab2e.png",
+        "year": "2023",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1652906,
+        "name": "Part D",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2023/mock-paper-1-option-b/section-a/question-2/part-d/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2023 - Mock Paper 1 (Option B) - Section B - Question 9 - Part A, B",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.2230674,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/f26164cf-228f-4d27-be03-30fef559ba19.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/a0496318-0a4a-4790-bbd9-cb5a1adda136.png"
+            },
+            {
+                "aspectRatio": 0.37735975,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/4d27a1c8-4e89-4e85-84fc-c05e5368a7c5.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/7713e0cd-3a26-408b-96a6-038a87a141f9.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 1.1886294,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/65cdbb42-ee3e-4eff-a62f-72faf53efe9e.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/e735504e-5e98-4af6-a14e-787d94325678.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045648,
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/b3c42ee4-9d0e-4ee7-9296-15b94929fe23.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1657382,
+                "name": "Leaving Cert Higher Level Maths - 2023 Mock P1 (Option B) Q9",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2023/mock-paper-1-option-b/solutions/leaving-cert-higher-level-maths-2023-mock-p1-option-b-q9/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/a0496318-0a4a-4790-bbd9-cb5a1adda136.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/e735504e-5e98-4af6-a14e-787d94325678.png",
+        "year": "2023",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1652924,
+        "name": "Part A, B",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2023/mock-paper-1-option-b/section-b/question-9/part-a-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2022 - Paper One - Section A - Question 1",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.94906014,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/d1c99f59-a7e8-4340-a6c0-839241c04d7b.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/5d289d27-94a5-46ec-a44d-9d919e5bd8ed.png"
+            },
+            {
+                "aspectRatio": 1.024892,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/c7452a98-f134-4a61-aab3-a962469116c2.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/fc2a57c8-2311-4470-a841-cfb038a803df.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.76985234,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/d58c8a47-a062-4f52-a3d1-d7d48ede95e7.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/49989dca-b67e-40c5-a1c7-6d8a188e5259.png"
+            },
+            {
+                "aspectRatio": 0.5057627,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/23418719-1da6-479c-9ff2-08f2cb79034e.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/3ab55df5-585e-457b-879d-f034b21a90de.png"
+            },
+            {
+                "aspectRatio": 0.9309677,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/e90feb40-af4e-45c2-8f98-221249ea70ec.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/dac9b0e3-ab88-4933-b3d0-2cd1a4146539.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/df581eb2-c5cc-4f37-8124-b61238ed60b6.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1618956,
+                "name": "Algebra - Solution to 2022 Leaving Cert Maths Higher Paper 1 Question 1",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2022/paper-one/solutions/algebra-solution-to-2022-leaving-cert-maths-higher-paper-1-question-1/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/5d289d27-94a5-46ec-a44d-9d919e5bd8ed.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/49989dca-b67e-40c5-a1c7-6d8a188e5259.png",
+        "year": "2022",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1100522,
+        "name": "Question 1",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2022/paper-one/section-a/question-1/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2022 - Mock Paper One Option A - Section A - Question 1",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.076532,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/59fae85f-8dc1-4130-9b3c-78b7a24906a1.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/e5ed37b5-0d3c-4133-b6ff-3779a0583f28.png"
+            },
+            {
+                "aspectRatio": 1.2016777,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/ede470d1-8ed0-4fc2-8d19-7143ebe8dded.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/299aaac3-71ab-44bf-a738-50383a0f8790.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.9257989,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/ec45cd72-7155-4e9d-8b13-240a83b6d7f7.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/5cc6cf3d-07ba-4ea8-9e75-7c855f462545.png"
+            },
+            {
+                "aspectRatio": 0.7843703,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/49f9f6b0-866c-49b4-9257-84999d5949dc.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/8f4bd0ed-af16-424e-82a8-ede8b1d2bb01.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/cf52d451-1b26-4f11-b50d-6bb512ae95bc.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1618464,
+                "name": "Studyclix: Leaving Cert Higher Level Maths - 2022 Mock P1 (Option A) Q1",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2022/mock-paper-one-option-a/solutions/studyclix-leaving-cert-higher-level-maths-2022-mock-p1-option-a-q1/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/e5ed37b5-0d3c-4133-b6ff-3779a0583f28.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/5cc6cf3d-07ba-4ea8-9e75-7c855f462545.png",
+        "year": "2022",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1104978,
+        "name": "Question 1",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2022/mock-paper-one-option-a/section-a/question-1/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2022 - Paper One - Section A - Question 2 - Part B2",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.8755545,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/b94f4006-adb1-454e-adfe-6186523347e2.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/485eb66b-2550-43a6-afd4-e5335b918b5d.png"
+            },
+            {
+                "aspectRatio": 1.014657,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/14dddf08-b37b-43f2-b1cc-f168226eba83.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/cbaa7c7b-22b3-4201-9185-ad26fc2ce976.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.9166834,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/70f8dc26-dca3-4bca-8fd0-6ff94402ac10.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/697ecb55-71de-4a5d-9e9f-73c12c7ee283.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/e0f2c2fd-4326-4cc8-8f6a-57f12b8830d6.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1618955,
+                "name": "Solution to 2022 Leaving Cert Maths Higher Paper 1 Question 2",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2022/paper-one/solutions/solution-to-2022-leaving-cert-maths-higher-paper-1-question-2/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/485eb66b-2550-43a6-afd4-e5335b918b5d.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/697ecb55-71de-4a5d-9e9f-73c12c7ee283.png",
+        "year": "2022",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1100520,
+        "name": "Part B2",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2022/paper-one/section-a/question-2/part-b2/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2022 - Mock Paper One Option A - Section A - Question 5 - Part b",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.241687,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/d038b16a-26e9-448d-a540-315bbe02c410.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/56d9b248-272e-4b76-82b3-326c600b143b.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.9676692,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/44db1d84-7d78-4b31-b0e4-b68a5ae5fcc1.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/5bd1ca83-6da4-4d9d-93a0-bba9ed381ac3.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/921c40c6-7f7c-4b31-888a-2ef0ed03887a.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1617678,
+                "name": "Studyclix: Leaving Cert Higher Level Maths - 2022 Mock P1 (Option A) Q5",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2022/mock-paper-one-option-a/solutions/studyclix-leaving-cert-higher-level-maths-2022-mock-p1-option-a-q5/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/56d9b248-272e-4b76-82b3-326c600b143b.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/5bd1ca83-6da4-4d9d-93a0-bba9ed381ac3.png",
+        "year": "2022",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1104925,
+        "name": "Part b",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2022/mock-paper-one-option-a/section-a/question-5/part-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2022 - Mock Paper One Option B - Section A - Question 1",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.0686232,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/ab12f48f-465d-4faf-af47-e16c898fa41e.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/d3feca37-a0b8-4b38-98bd-41b7d8496d33.png"
+            },
+            {
+                "aspectRatio": 1.233313,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/8c0269ab-368f-412f-a4e4-c308a53c67ac.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/eebd270d-22be-4608-a1c5-286f402b88ce.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.963017,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/33352d6c-f796-4706-b52f-fab366650cc1.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/a3928367-4387-4fad-81de-8d68d759bb01.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/eb269b13-2b29-441a-af78-a791cb2afd4a.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1618458,
+                "name": "Studyclix: Leaving Cert Higher Level Maths - 2022 Mock P1 (Option B) Q1",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2022/mock-paper-one-option-b/solutions/studyclix-leaving-cert-higher-level-maths-2022-mock-p1-option-b-q1/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/d3feca37-a0b8-4b38-98bd-41b7d8496d33.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/a3928367-4387-4fad-81de-8d68d759bb01.png",
+        "year": "2022",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1104936,
+        "name": "Question 1",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2022/mock-paper-one-option-b/section-a/question-1/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2021 - Paper One - Section A - Question 2 - Part a",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.44522083,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/42af651a-1509-4fe7-b1ac-a6d7a65c790d.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/a4a0338f-0b9c-40be-bdac-3fc73830891e.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.60432804,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/95f86765-bc3d-48c9-b8ae-085a345a928f.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/995014e1-74f3-43fa-9455-37ea60be1071.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/270c8a0f-b9c7-4c98-87b8-b9ee69fca367.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1618404,
+                "name": "Studyclix: Leaving Cert Maths – 2021 State Higher P1 Q2",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2021/paper-one/solutions/studyclix-leaving-cert-maths-2021-state-higher-p1-q2/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/a4a0338f-0b9c-40be-bdac-3fc73830891e.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/995014e1-74f3-43fa-9455-37ea60be1071.png",
+        "year": "2021",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1113358,
+        "name": "Part a",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2021/paper-one/section-a/question-2/part-a/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2021 - Paper One - Section A - Question 2 - Part b",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.80437505,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/11c144b1-137c-4dee-a210-fa2f016da413.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/bdc126ce-17be-48cb-bc2e-6f26ad0f53f5.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.75087404,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/6b4505eb-3191-4ac2-96eb-9f5cd621d315.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/5894b558-3d49-4511-a711-14509a49ca36.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009,
+            1045617
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/270c8a0f-b9c7-4c98-87b8-b9ee69fca367.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1618404,
+                "name": "Studyclix: Leaving Cert Maths – 2021 State Higher P1 Q2",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2021/paper-one/solutions/studyclix-leaving-cert-maths-2021-state-higher-p1-q2/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/bdc126ce-17be-48cb-bc2e-6f26ad0f53f5.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/5894b558-3d49-4511-a711-14509a49ca36.png",
+        "year": "2021",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1113357,
+        "name": "Part b",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2021/paper-one/section-a/question-2/part-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2021 - Paper One - Section A - Question 3 - Part b",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.9430122,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/af47fdf5-efc3-4d85-8fb1-27f192ab0a8d.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/a8d55b4a-9697-47c1-9d9f-c7d8985942c5.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.32984492,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/150289fd-f7bf-4382-95e1-ce34e90104c4.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/97db086c-90ea-45f0-8edb-1c6aece65576.png"
+            },
+            {
+                "aspectRatio": 0.46103853,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/3d7aa358-ad62-4777-9803-31e57fe2fbbf.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/6031c347-ce7d-48de-90e4-59386ba11a41.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045008,
+            1045009,
+            1045617
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/65508004-e9eb-4cb6-a4bb-96eb5f97f12b.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1618403,
+                "name": "Studyclix: Leaving Cert Maths – 2021 State Higher P1 Q3",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2021/paper-one/solutions/studyclix-leaving-cert-maths-2021-state-higher-p1-q3/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/a8d55b4a-9697-47c1-9d9f-c7d8985942c5.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/97db086c-90ea-45f0-8edb-1c6aece65576.png",
+        "year": "2021",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1113354,
+        "name": "Part b",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2021/paper-one/section-a/question-3/part-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2021 - Mock Paper One - Section A - Question 1",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.1455005,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/e7c8b328-10e5-405b-8de2-4327365de54a.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/cb0cee1e-7076-4de8-be8a-8fde305d8477.png"
+            },
+            {
+                "aspectRatio": 1.3181101,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/581e38f9-9218-4c81-8503-47be88133eca.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/9518d3c5-49bd-418c-aae7-20f29ebc68eb.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.9383599,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/9014c43d-c5eb-43bb-88c7-7a04ef776885.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/3194e3e5-eb49-4418-8a89-a4305e97ed32.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/c00441e5-f7e3-4087-8c5c-67385c730230.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1618943,
+                "name": "Studyclix: LC Maths - 2021 Higher Mock P1 Q1",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2021/mock-paper-one/solutions/studyclix-lc-maths-2021-higher-mock-p1-q1/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/cb0cee1e-7076-4de8-be8a-8fde305d8477.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/3194e3e5-eb49-4418-8a89-a4305e97ed32.png",
+        "year": "2021",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1098621,
+        "name": "Question 1",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2021/mock-paper-one/section-a/question-1/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2021 - Mock Paper One - Section A - Question 2",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.3429134,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/545eaed0-9939-43a3-a4aa-35ef6470d6e5.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/812dec06-13c1-4d75-a892-6dae7b7dac59.png"
+            },
+            {
+                "aspectRatio": 1.3251967,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/3e8a2956-33cd-469f-82a2-8fe1819123d3.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/074bf683-17b3-4b94-b7ff-8e355c8ff237.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.6610855,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/db913593-49bf-4a0c-86c8-c1f9dc2ce1c6.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/415edfcd-2c7d-4d1a-b2d9-5d1d9b950850.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/e68db85a-2cd6-46ae-836a-af0a9a8d0cf3.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619981,
+                "name": "Studyclix: Leaving Cert Maths - 2021 Higher Mock P1 Q2",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2021/mock-paper-one/solutions/studyclix-leaving-cert-maths-2021-higher-mock-p1-q2/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/812dec06-13c1-4d75-a892-6dae7b7dac59.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/415edfcd-2c7d-4d1a-b2d9-5d1d9b950850.png",
+        "year": "2021",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1098627,
+        "name": "Question 2",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2021/mock-paper-one/section-a/question-2/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2021 - Paper Two - Section B - Question 7 - Part a,b",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.0337311,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/8087f29f-a9a9-4b45-8643-0784b887e852.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/199bc495-2dc7-4883-9556-4b65bf3777cb.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.18236841,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/60874a9b-0489-4a65-ae25-34b396f169eb.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/dbd0c0a5-7053-461c-b6d5-704da6e52cf2.png"
+            },
+            {
+                "aspectRatio": 0.54105735,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/de90378b-f461-4eb1-b77a-78daea2847e4.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/bbef61c8-20cb-4f9a-aee1-9f0fdc5a428b.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/c4f8d909-0cee-4067-ab7d-965cc4b35fd9.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1618388,
+                "name": "Studyclix: Leaving Cert Maths – 2021 State Higher P2 Q7",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2021/paper-two/solutions/studyclix-leaving-cert-maths-2021-state-higher-p2-q7/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/199bc495-2dc7-4883-9556-4b65bf3777cb.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/dbd0c0a5-7053-461c-b6d5-704da6e52cf2.png",
+        "year": "2021",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1113382,
+        "name": "Part a,b",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2021/paper-two/section-b/question-7/part-a-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2020 - Paper One - Section A - Question 1",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.0644361,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/a04c1eb1-67d6-44c9-9dfb-130a457b474e.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/788cfa62-ff51-4e46-8c85-a655a2dad0e8.png"
+            },
+            {
+                "aspectRatio": 0.032100566,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/06f3426b-9b61-48b2-9915-426a63673d80.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/6fe4de21-0b3e-4892-971a-f3975632fd95.png"
+            },
+            {
+                "aspectRatio": 1.1109587,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/23ca1c7e-adf6-4237-b8b8-124719b3d848.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/07ae2d73-80d5-4a95-bc61-27607f428c25.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.7201691,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/c60b260a-c6ad-4ce9-9216-e1f5ddc201b9.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/a820529e-579d-40b7-88e6-893adac4b4b6.png"
+            },
+            {
+                "aspectRatio": 0.0060479324,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/4be75c54-e516-414d-9efc-fe0965ec2b7b.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/23432399-8c97-448b-b9fc-f65dca29ea4b.png"
+            },
+            {
+                "aspectRatio": 0.8560151,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/9254c0aa-b03b-4ce7-958f-b5cf149430c1.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/2e52518a-8171-4c91-ab28-ca604230252d.png"
+            },
+            {
+                "aspectRatio": 0.68853384,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/575ccc2a-4b1f-4111-83ab-d44a3a1206ef.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/ed173209-787a-4bb2-bf51-9aeb0ddeb3ca.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009,
+            1045617
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/1437d40a-d578-4175-88ea-96faa6d1b7a1.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1618410,
+                "name": "Studyclix: Leaving Cert Maths – 2020 State Higher P1 Q1",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2020/paper-one/solutions/studyclix-leaving-cert-maths-2020-state-higher-p1-q1/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/788cfa62-ff51-4e46-8c85-a655a2dad0e8.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/a820529e-579d-40b7-88e6-893adac4b4b6.png",
+        "year": "2020",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1115149,
+        "name": "Question 1",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2020/paper-one/section-a/question-1/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2020 - Mock Paper One - Section A - Question 2",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.2375,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/bde5941c-b4b2-41a1-a9d7-acf0b6785031.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/219a70b6-64d8-4175-a5f9-5a6df13c1970.png"
+            },
+            {
+                "aspectRatio": 1.2058647,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/986d06ba-23b0-449f-9949-dcf7f41aff74.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/961c0d64-eccb-4bbc-be6a-57103b60a544.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.9746475,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/51f5f49d-c0b1-4406-971f-8e935eb2ca76.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/edc5fba9-3f2d-41c1-9e79-3f4d26f3ffeb.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009,
+            1045617
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/45255724-83c1-4895-b7f2-1d141971672f.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1620042,
+                "name": "Studyclix: Leaving Cert Maths – 2020 Mock Higher P1 Q2",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2020/mock-paper-one/solutions/studyclix-leaving-cert-maths-2020-mock-higher-p1-q2/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/219a70b6-64d8-4175-a5f9-5a6df13c1970.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/edc5fba9-3f2d-41c1-9e79-3f4d26f3ffeb.png",
+        "year": "2020",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1088053,
+        "name": "Question 2",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2020/mock-paper-one/section-a/question-2/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2020 - Paper One - Section A - Question 3",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.1979558,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/39f24eca-5b7b-4965-b411-b1775a74e757.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/a60f5b5e-fa20-46b9-b3c8-bb3c662df384.png"
+            },
+            {
+                "aspectRatio": 1.0583882,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/ef038529-3fa3-45e8-bd1f-989284b71f3b.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/e82d4b26-11e4-4c2d-8eb1-20f3338a2cd5.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.99418706,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/44b834f7-025e-4c91-94fb-ef7221bdd050.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/7bc5478f-ba70-4ddc-bb44-34dfd6934313.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045008,
+            1045009,
+            1045617
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/82aa3da9-c380-45f6-a60a-16e5f4e712a1.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619078,
+                "name": "Studyclix: Leaving Cert Maths – 2020 State Higher P1 Q3",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2020/paper-one/solutions/studyclix-leaving-cert-maths-2020-state-higher-p1-q3/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/a60f5b5e-fa20-46b9-b3c8-bb3c662df384.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/7bc5478f-ba70-4ddc-bb44-34dfd6934313.png",
+        "year": "2020",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1115145,
+        "name": "Question 3",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2020/paper-one/section-a/question-3/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2020 - Mock Paper One - Section A - Question 1 - Part a",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.0388486,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/c547972c-9ea3-46aa-969b-e4cad3eb6874.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/ce318d67-c197-4c8c-b1e5-9909fefacd84.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.26703948,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/3408e841-cbfd-4591-ae55-4caea79ddb5b.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/dbc471dd-1802-49b3-9015-a1594c3227d9.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/d6bc9804-084a-4153-9e5b-0139eb62f4e0.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619025,
+                "name": "Studyclix: Leaving Cert Maths - 2020 Higher Mock P1 Q1",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2020/mock-paper-one/solutions/studyclix-leaving-cert-maths-2020-higher-mock-p1-q1/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/ce318d67-c197-4c8c-b1e5-9909fefacd84.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/dbc471dd-1802-49b3-9015-a1594c3227d9.png",
+        "year": "2020",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1088032,
+        "name": "Part a",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2020/mock-paper-one/section-a/question-1/part-a/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2020 - Mock Paper One - Section A - Question 3 - Part b",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.2226129,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/613e3e99-b8b5-4e38-b3f8-d4e166e6bb32.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/dba2d657-c2c8-49ed-93da-cdce1fb09584.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/e2a0c9ed-89dd-46e7-8eb3-200736c3daa5.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1618935,
+                "name": "Studyclix: Leaving Cert Maths - 2020 Higher Mock P1 Q3",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2020/mock-paper-one/solutions/studyclix-leaving-cert-maths-2020-higher-mock-p1-q3/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/dba2d657-c2c8-49ed-93da-cdce1fb09584.png",
+        "markingSchemeThumbnail": null,
+        "year": "2020",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1099094,
+        "name": "Part b",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2020/mock-paper-one/section-a/question-3/part-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2020 - Mock Paper One - Section B - Question 7",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.089093,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/9cc34483-1ab4-4e3e-89e7-54a186197e8a.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/fd1f5ea2-4d32-43c3-9aaf-942e151f8a97.png"
+            },
+            {
+                "aspectRatio": 1.2444783,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/30158562-1cdc-40c2-bef1-9f35da3f53c9.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/b62513d3-3cfd-49b4-aa51-202bb074c3bf.png"
+            },
+            {
+                "aspectRatio": 0.8429887,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/f09cfc83-74e9-4234-bbf6-f8d3a8e6f311.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/f6406466-5a80-4c37-82e9-1b1c82922c64.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.9704606,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/1f4db85c-9b2f-44e4-ac8f-8a184dc4b4b5.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/6299a4d8-7789-4e37-ae89-e71bd70ae327.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045008,
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/c8a2a2c8-5b95-4249-8f93-fd21d179b48e.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619014,
+                "name": "Studyclix: Leaving Cert Maths - 2020 Higher Mock P1 Q7",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2020/mock-paper-one/solutions/studyclix-leaving-cert-maths-2020-higher-mock-p1-q7/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/fd1f5ea2-4d32-43c3-9aaf-942e151f8a97.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/6299a4d8-7789-4e37-ae89-e71bd70ae327.png",
+        "year": "2020",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1088169,
+        "name": "Question 7",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2020/mock-paper-one/section-b/question-7/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2020 - Paper One - Section B - Question 9",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.9150987,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/74319bde-f2d4-42d9-a943-217a18e32481.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/01fca4ee-4b46-47e0-ad0d-90178f9029bc.png"
+            },
+            {
+                "aspectRatio": 1.163529,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/06dfa887-0ead-40e6-8f46-30d881b600de.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/c37ff11e-eb9f-44d2-84a1-b1fd34f6e9cc.png"
+            },
+            {
+                "aspectRatio": 1.1784164,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/fad13aaf-6f4d-452a-922a-bc6e52dde3b7.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/26520dfc-3bcf-4088-9938-5417d9cc7719.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.71830827,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/e93e8659-788b-4fd3-a14c-9b2906159dcd.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/ad485cb5-9ca8-45be-bc81-32a3cbca5c2b.png"
+            },
+            {
+                "aspectRatio": 0.68062496,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/4bad68dc-681c-4b2e-8c48-f56cf2512180.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/f3983bfc-60b1-46e9-bfb9-025cce89caaf.png"
+            },
+            {
+                "aspectRatio": 0.78157896,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/cc20cb3f-f28b-457a-8d86-47980a7d445b.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/b252d774-0fb9-4cbf-a15f-7c8aaa82691c.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045008,
+            1045009,
+            1045648,
+            1045617
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/a56dee48-7d3e-474f-89f4-18972031af9b.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619082,
+                "name": "Studyclix: Leaving Cert Maths – 2020 State Higher P1 Q9",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2020/paper-one/solutions/studyclix-leaving-cert-maths-2020-state-higher-p1-q9/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/01fca4ee-4b46-47e0-ad0d-90178f9029bc.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/ad485cb5-9ca8-45be-bc81-32a3cbca5c2b.png",
+        "year": "2020",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1115272,
+        "name": "Question 9",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2020/paper-one/section-b/question-9/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2019 - Paper One - Section A - Question 1",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.777051,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/09af18ea-530e-4f06-8229-4b5edb1797e9.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/ce496a27-0435-4afa-beda-a86cae4b8e36.png"
+            },
+            {
+                "aspectRatio": 0.7412837,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/22153a11-3e33-4669-a3ed-eddae37625fc.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/95199536-6552-4a75-a71b-0917b0851772.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.61901164,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/e02bf064-98c9-4ec8-8bf4-05f2f92eefb1.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/4c9ffcec-212e-45d9-9b05-23b865e4b3a9.png"
+            },
+            {
+                "aspectRatio": 0.80969137,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/4c2feb8d-fa51-4f7e-9075-e055ecfb1ced.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/7e1296d8-f196-4f39-b77d-d10e4eff824a.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/849039dc-1cb7-43f0-8e0c-6d2c50eaa71b.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619006,
+                "name": "2019 LC HL P1 Q1 - Studyclix Maths Solution",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2019/paper-one/solutions/2019-lc-hl-p1-q1-studyclix-maths-solution/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/ce496a27-0435-4afa-beda-a86cae4b8e36.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/4c9ffcec-212e-45d9-9b05-23b865e4b3a9.png",
+        "year": "2019",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1091590,
+        "name": "Question 1",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2019/paper-one/section-a/question-1/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2019 - Mock Paper One - Section A - Question 2",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.44507447,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/93bc653c-92b2-4885-96fe-121c9fb44948.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/4f1e8af7-035a-452c-be61-d7549fe4978c.png"
+            },
+            {
+                "aspectRatio": 0.30741298,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/c377f587-d4be-4e2b-b9da-0e7a96283581.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/2839879a-8ee8-49c1-b6dc-aa9ea3d0c4be.png"
+            },
+            {
+                "aspectRatio": 0.22835062,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/1d63c646-924e-4dcb-80d0-093ca95f9bb4.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/165461c6-88f6-4ca4-879b-e85c1e9e84df.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.73366076,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/4ae79aef-e171-4cfd-9ab8-4d7efdc4ba91.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/65e8103e-51d3-4864-bfcb-fde839a87ed7.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/3ac1c575-cf95-45d4-941e-5ba3bf663eee.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619963,
+                "name": "Studyclix: Leaving Cert Maths - 2019 Higher Mock P1 Q2",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/mock-exams/2019/mock-paper-one/solutions/studyclix-leaving-cert-maths-2019-higher-mock-p1-q2/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/4f1e8af7-035a-452c-be61-d7549fe4978c.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/65e8103e-51d3-4864-bfcb-fde839a87ed7.png",
+        "year": "2019",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1092874,
+        "name": "Question 2",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2019/mock-paper-one/section-a/question-2/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2019 - Paper One - Section A - Question 6",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.96887064,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/ca417043-a6cb-4bd3-b7f8-f672f70e0262.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/e00665f9-ab48-442c-b853-481de425ed5c.png"
+            },
+            {
+                "aspectRatio": 1.0143822,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/635d1c39-0a18-466f-a4fd-7abcb24e4ba2.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/3df29ea3-9116-4a52-81de-c0c398e0b65d.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.9915347,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/2fee39a8-8c86-47cc-bd4c-b4bcf9c32d57.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/82394f1e-90d0-40a0-9db2-7aa3656113e5.png"
+            },
+            {
+                "aspectRatio": 0.36275664,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/e1da892c-d2bf-4a20-9990-9241c5e2b453.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/25e5cb30-c344-414d-a02b-52b1f471cf90.png"
+            },
+            {
+                "aspectRatio": 0.36182648,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/10d8133f-b1c2-4573-b866-c0e5159b1a5d.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/2ac15402-c236-4f47-9138-8c3e7dc65075.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/2879593b-3c57-4ecf-a068-b5200bce83d6.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619421,
+                "name": "2019 LC HL P1 Q6 - Studyclix Maths Solution",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2019/paper-one/solutions/2019-lc-hl-p1-q6-studyclix-maths-solution/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/e00665f9-ab48-442c-b853-481de425ed5c.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/82394f1e-90d0-40a0-9db2-7aa3656113e5.png",
+        "year": "2019",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1087366,
+        "name": "Question 6",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2019/paper-one/section-a/question-6/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2018 - Mock Paper One - Section a - Question 1",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.060924508,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/50938ada-cd78-46dd-ae9c-d7fe9cc26f86.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/3dd8e263-b4cc-4bae-99b4-fb1e2c3f2fa3.png"
+            },
+            {
+                "aspectRatio": 0.010231597,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/09d3b551-a138-4a0f-833f-6af6fcd50825.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/2b56c7de-f458-4fcc-b305-851df7c1f720.png"
+            },
+            {
+                "aspectRatio": 0.37763894,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/96260733-84e4-4523-af77-06949dd020fd.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/74cb9659-ce11-4bba-b647-c7654e6a8478.png"
+            },
+            {
+                "aspectRatio": 0.002325363,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/85e420d4-cb6d-4016-8eba-e5e67a00467a.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/95d8e0be-1568-44ba-840b-521ab659db82.png"
+            },
+            {
+                "aspectRatio": 0.6250575,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/124d7443-52ef-40a7-a1b4-fa3bd63fd687.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/f30da034-bef9-4e67-b485-0e00fe125a3c.png"
+            },
+            {
+                "aspectRatio": 1.2701132,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/07fba3a3-ae1a-4141-8a82-eb4586a282a2.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/12a4361f-ab38-410a-8d15-7ecd7f1ccf1b.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.72225773,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/cd9db337-abcd-44e9-8778-d9da2404835f.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/1199c157-037b-4cba-b9ce-50881c3e9109.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/3dd8e263-b4cc-4bae-99b4-fb1e2c3f2fa3.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/1199c157-037b-4cba-b9ce-50881c3e9109.png",
+        "year": "2018",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1085405,
+        "name": "Question 1",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2018/mock-paper-one/section-a/question-1/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2018 - Mock Paper One - Section a - Question 2",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.2356979,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/41627bc5-9be5-49bc-95a4-187b7a24bf73.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/8a6a6a87-2ce7-4cd6-a911-cb69d483fc86.png"
+            },
+            {
+                "aspectRatio": 1.2394184,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/1144bd64-e156-4223-9076-0150b4c345aa.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/3d49bad2-c117-47ce-816b-ad36751186d7.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.8273641,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/c76fc734-522e-47c4-86c8-a78b5d52cd7c.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/f3267428-e0ec-4a8a-b9aa-7bfd1214ecb5.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/8a6a6a87-2ce7-4cd6-a911-cb69d483fc86.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/f3267428-e0ec-4a8a-b9aa-7bfd1214ecb5.png",
+        "year": "2018",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1085385,
+        "name": "Question 2",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2018/mock-paper-one/section-a/question-2/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2018 - Paper Two - Section A - Question 3 - Part (b)",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.6301734,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/adcdde6d-da60-4c5e-8a28-51fad111ede4.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/3398b3b0-aa65-41bd-8895-05e5ecd2f54f.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.5083244,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/572cce6e-d783-4eb3-a8ba-16ebcf07ce5b.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/e6dc4fa1-3f16-4f2f-8fb0-834d9f28cf48.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009,
+            1044978
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/bd9d3062-bca1-49cb-ba32-8d77304a2c73.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1618763,
+                "name": "2018 LC HL P2 Q3 - Studyclix Maths Solution",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2018/paper-two/solutions/2018-lc-hl-p2-q3-studyclix-maths-solution/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/3398b3b0-aa65-41bd-8895-05e5ecd2f54f.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/e6dc4fa1-3f16-4f2f-8fb0-834d9f28cf48.png",
+        "year": "2018",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1080662,
+        "name": "Part (b)",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2018/paper-two/section-a/question-3/part-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2018 - Paper Two - Section A - Question 4 - Part (b)",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.5618077,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/c42805a5-fff7-4865-ace7-4d7dd6efe043.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/0254b650-3123-4eee-ad04-3274a884988d.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.54273975,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/80022ac2-2ece-474e-9087-bf4fb1f3afbe.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/957b947b-59c4-433c-bf14-dc6f7cf1d7ba.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009,
+            1044891
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/b3b46a2e-cd12-4e23-ae51-97e03398c4be.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1618761,
+                "name": "2018 LC HL P2 Q4 - Studyclix Maths Solution",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2018/paper-two/solutions/2018-lc-hl-p2-q4-studyclix-maths-solution/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/0254b650-3123-4eee-ad04-3274a884988d.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/957b947b-59c4-433c-bf14-dc6f7cf1d7ba.png",
+        "year": "2018",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1080659,
+        "name": "Part (b)",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2018/paper-two/section-a/question-4/part-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2018 - Paper One - Section A - Question 1",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.0719923,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/7b4d0084-3415-42ae-a96c-53df6e82b4ce.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/5cfc634f-5b5d-4772-81f7-805868dbb232.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.83852583,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/673cddf9-c26c-40b0-be12-ef4d2380636b.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/a22c6889-49d8-416f-af81-4161ee1afe8a.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/777bd2a0-5ff1-4eb0-87e7-42a3afe365f8.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1618820,
+                "name": "2018 LC HL P1 Q1 - Studyclix Maths Solution",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2018/paper-one/solutions/2018-lc-hl-p1-q1-studyclix-maths-solution/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/5cfc634f-5b5d-4772-81f7-805868dbb232.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/a22c6889-49d8-416f-af81-4161ee1afe8a.png",
+        "year": "2018",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1081209,
+        "name": "Question 1",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2018/paper-one/section-a/question-1/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2018 - Paper One - Section A - Question 2",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.1529149,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/96a46b16-1db2-4550-bc8b-f1f03e417e85.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/4907c4f1-845b-4e69-901d-e55889d08ea9.png"
+            },
+            {
+                "aspectRatio": 0.70272464,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/1c54860c-2077-4525-bbf8-4bd24366921d.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/9e468cb2-231a-4eac-aa0e-7bf4018a9400.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.80876124,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/e1041c49-8f54-4b5a-b1cc-580a88950a58.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/c3854b69-081f-49f6-8ab0-55a3757e4386.png"
+            },
+            {
+                "aspectRatio": 0.5762249,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/78850396-426a-41d9-a8d7-d4260d29c1de.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/cb9aac9d-052d-4fd3-bcea-2a91b58519a6.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009,
+            1045211
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/f5d18552-437f-4985-b05b-95793eaa56f2.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619997,
+                "name": "2018 LC HL P1 Q2 - Studyclix Maths Solution",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2018/paper-one/solutions/2018-lc-hl-p1-q2-studyclix-maths-solution/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/4907c4f1-845b-4e69-901d-e55889d08ea9.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/c3854b69-081f-49f6-8ab0-55a3757e4386.png",
+        "year": "2018",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1081218,
+        "name": "Question 2",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2018/paper-one/section-a/question-2/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2018 - Paper One - Section A - Question 6",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.1654719,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/a87c2887-d558-43fe-b72c-82e2e11da483.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/17924d2e-53c9-43d1-b370-45efbefa44c4.png"
+            },
+            {
+                "aspectRatio": 0.7148166,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/e1e17ae4-dad5-4e02-818b-c6504835b47f.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/35d80207-fdb8-4ee4-bbc6-a0147ec9fbf9.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.9687461,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/0cd72cca-164b-4d7b-982e-06416300f0b4.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/accb649a-be8b-4174-b971-bf1f6951e506.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045067,
+            1045009,
+            1045014,
+            1045648,
+            1045617
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/cd3c48fe-99b9-44a4-8600-e9eabbaeac4d.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619416,
+                "name": "2018 LC HL P1 Q6 - Studyclix Maths Solution",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2018/paper-one/solutions/2018-lc-hl-p1-q6-studyclix-maths-solution/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/17924d2e-53c9-43d1-b370-45efbefa44c4.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/accb649a-be8b-4174-b971-bf1f6951e506.png",
+        "year": "2018",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1081223,
+        "name": "Question 6",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2018/paper-one/section-a/question-6/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2017 - Mock Paper One - Section A - Question 1",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.0966412,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/cc7e5129-6dd3-4f07-bd23-3d2ea93d25f3.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/5c39ccc4-a807-461c-a984-773c8215a024.png"
+            },
+            {
+                "aspectRatio": 0.6250575,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/a4a0c5c2-e806-49e5-bcdb-df67dc8e90df.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/bdaab354-e2a6-4bba-ad47-4de93aed14c7.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.80969137,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/836d3d36-2d96-4188-a911-c38554ca53ea.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/3be7193e-cb1b-465c-b838-334b51639277.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/5c39ccc4-a807-461c-a984-773c8215a024.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/3be7193e-cb1b-465c-b838-334b51639277.png",
+        "year": "2017",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1150185,
+        "name": "Question 1",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2017/mock-paper-one/section-a/question-1/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2017 - Paper One - Section A - Question 1",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.044312,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/878e4d4c-2692-46de-94c2-8cd933f15d60.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/0c7bbd18-5c3f-418b-a5de-6769d3d664dd.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.41437966,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/7e627dc6-cd71-40ca-a03b-4f3cc11a5085.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/14f84796-06a0-4f77-9d5c-1b1cf0b960a9.png"
+            },
+            {
+                "aspectRatio": 0.9650256,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/96ca9bf2-896f-4e78-aa1c-7128ce5cdaa5.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/4fa46f8d-ba8e-49aa-b980-32f83ce702fa.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045067,
+            1045009,
+            1045617
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/4fe89fac-ec14-4a7b-89d5-2dd0443ec222.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619887,
+                "name": "2017 LC HL P1 Q1 - Studyclix Maths Solution",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2017/paper-one/solutions/2017-lc-hl-p1-q1-studyclix-maths-solution/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/0c7bbd18-5c3f-418b-a5de-6769d3d664dd.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/14f84796-06a0-4f77-9d5c-1b1cf0b960a9.png",
+        "year": "2017",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1160848,
+        "name": "Question 1",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2017/paper-one/section-a/question-1/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2017 - Mock Paper One - Section A - Question 2",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.2436041,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/6b53bc5b-c8e8-44d3-bef8-ba7a52b30ba2.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/0a7896c7-d9ab-4eb2-875e-8d9a6b758ddc.png"
+            },
+            {
+                "aspectRatio": 0.8106215,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/8fad6a33-1299-4fb4-a7ea-20eb04f073d4.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/ba918161-8ef7-473f-9f8b-2065786a4d08.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.9975807,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/b25861fb-880a-4a30-a5eb-15ca14d148f4.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/1d299414-b4cf-4238-a4b9-9e8ad22a56ec.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009,
+            1045617
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/0a7896c7-d9ab-4eb2-875e-8d9a6b758ddc.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/1d299414-b4cf-4238-a4b9-9e8ad22a56ec.png",
+        "year": "2017",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1150184,
+        "name": "Question 2",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2017/mock-paper-one/section-a/question-2/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2017 - Paper One - Section A - Question 5",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.8315497,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/b44c6087-1df4-4ac6-8b65-4a33a0dec2b4.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/2493b0dd-3409-4e65-a69b-2c4508b820c8.png"
+            },
+            {
+                "aspectRatio": 1.0496688,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/15968768-cf05-43fa-9dd4-b7b9052709bd.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/d7703827-d088-4a8a-ab55-78c686d3c29b.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.5836661,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/5131f66f-5d33-4597-b059-9cdbec6a23a6.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/ad301bba-8ad7-4e30-b31c-44030860c66e.png"
+            },
+            {
+                "aspectRatio": 0.5678536,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/620960cc-3b37-47b2-b954-f3f8d0579fef.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/0156d808-d7ea-46e5-8502-6e6d89decf2c.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009,
+            1045648,
+            1045617
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/2341417d-d782-4b16-9282-2011b8f6545e.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619545,
+                "name": "2017 LC HL P1 Q5 - Studyclix Maths Solution",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2017/paper-one/solutions/2017-lc-hl-p1-q5-studyclix-maths-solution/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/2493b0dd-3409-4e65-a69b-2c4508b820c8.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/ad301bba-8ad7-4e30-b31c-44030860c66e.png",
+        "year": "2017",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1160842,
+        "name": "Question 5",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2017/paper-one/section-a/question-5/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2017 - Mock Paper One - Section A - Question 3 - Part a",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.6748203,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/b138a690-bb34-49cd-9895-44357b48aeaa.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/b1459fff-5307-44d8-b5a5-12f934a6f1ca.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.8836379,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/4ed6f852-93a6-46d0-94ed-dfabd1ce6828.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/c349556a-16b8-4b79-a936-696618ca7ec6.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/b1459fff-5307-44d8-b5a5-12f934a6f1ca.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/c349556a-16b8-4b79-a936-696618ca7ec6.png",
+        "year": "2017",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1150216,
+        "name": "Part a",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2017/mock-paper-one/section-a/question-3/part-a/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2016 - Paper 2 - Section A - Question 4 - Part a,b",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.9230075,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/e75ece80-0ed3-4152-a58d-59d0de2a0419.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/63524158-fd48-41e0-8eb6-7e6fcea37946.png"
+            },
+            {
+                "aspectRatio": 0.41498122,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/557840fd-30f1-4f8e-a8bf-8c61ee8aa15c.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/6ebac052-b3f4-4725-8eb1-1c58cc41fe82.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.9946522,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/1f73a597-9b54-49ab-86f9-eabeae2300ab.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/39aafc44-6af9-4349-a16a-0ab73ef1d1dc.png"
+            },
+            {
+                "aspectRatio": 0.3470583,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/cdde4d48-a1ad-4749-83fc-f9601132be01.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/3f686698-1593-4089-8164-6c6f6b4f2cd6.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009,
+            1044983,
+            1045622,
+            1044891
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/334161bf-a1db-4fe5-b516-a438d72767bc.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619845,
+                "name": "Studyclix: Leaving Cert Higher Level Maths - 2016 State P2 Q4",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2016/paper-2/solutions/studyclix-leaving-cert-higher-level-maths-2016-state-p2-q4/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/63524158-fd48-41e0-8eb6-7e6fcea37946.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/39aafc44-6af9-4349-a16a-0ab73ef1d1dc.png",
+        "year": "2016",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1154945,
+        "name": "Part a,b",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2016/paper-2/section-a/question-4/part-a-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2016 - Mock paper One - Section A - Question 1",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.7799267,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/2a76ac20-0780-4b98-8a47-7dd927290192.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/adf91dd4-8a71-467c-b639-c52b3d9db293.png"
+            },
+            {
+                "aspectRatio": 0.77202046,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/be829e8f-08ed-469b-bc37-a0fdeb0dddf9.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/39cad1a4-6a91-471c-93d7-ba27728c383f.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 1.1226852,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/83fbb988-7d96-49e2-a103-bf077151fd82.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/44ccef1a-2d62-4434-ace8-5bd88266ecb4.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/adf91dd4-8a71-467c-b639-c52b3d9db293.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/44ccef1a-2d62-4434-ace8-5bd88266ecb4.png",
+        "year": "2016",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1149947,
+        "name": "Question 1",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2016/mock-paper-one/section-a/question-1/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2016 - Mock paper One - Section A - Question 2",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.8441067,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/39ff4685-6c4b-46bb-9f3d-0eceffa9e28d.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/72f07933-3dcf-49f6-b1a5-f4030b60c9a4.png"
+            },
+            {
+                "aspectRatio": 0.64226526,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/9370c512-6477-4c1a-982c-abdf71759340.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/3e5940fd-6abf-42ca-822d-8ecb139f9ea7.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.81852776,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/9b964799-540f-4772-8084-d8576e7b4366.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/3c7bc3a6-79c3-4ab0-98ad-9a065a4e673a.png"
+            },
+            {
+                "aspectRatio": 0.6162212,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/bb055568-c7d2-467b-b726-2da9df8a2922.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/22f42b91-7ead-43af-b115-4bafb8df4b06.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/72f07933-3dcf-49f6-b1a5-f4030b60c9a4.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/3c7bc3a6-79c3-4ab0-98ad-9a065a4e673a.png",
+        "year": "2016",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1149954,
+        "name": "Question 2",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2016/mock-paper-one/section-a/question-2/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2016 - Paper One - Section A - Question 2 - Part a,b",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.2040038,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/2820f9a1-166b-4c5b-9e50-e9963e94b497.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/74f5dca7-1b67-4864-a726-65c87d493367.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 1.0328008,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/2386e2f8-8f7d-4ce5-8ef8-0666f3f5bae4.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/0c839552-c0ec-45f2-b36e-9a45f1350995.png"
+            },
+            {
+                "aspectRatio": 0.59734964,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/b36010cc-3d57-4768-ad8c-484737a6e423.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/827e80f3-73be-493b-be18-5c36b44b0fa3.png"
+            },
+            {
+                "aspectRatio": 0.025122182,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/e91c0d3c-bd4a-4635-9983-496ad86bbc9e.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/e6fefeda-699a-43dd-aa0d-1a4f01ff19b4.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/9547e4c1-18fe-4023-b943-1fa92f69d4ee.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619831,
+                "name": "Studyclix: Leaving Cert Higher Level Maths - 2016 State P1 Q2",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2016/paper-one/solutions/studyclix-leaving-cert-higher-level-maths-2016-state-p1-q2/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/74f5dca7-1b67-4864-a726-65c87d493367.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/0c839552-c0ec-45f2-b36e-9a45f1350995.png",
+        "year": "2016",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1154674,
+        "name": "Part a,b",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2016/paper-one/section-a/question-2/part-a-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2016 - Paper One - Section A - Question 3 - Part a,b",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.2040038,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/6c7b17ad-2ab7-4e25-b7e0-466f46be49f5.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/13c08a8b-f14b-4dd9-9cdd-5aed50fab344.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.00093045115,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/79824fd7-bffe-4838-9e85-c3e0f764319e.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/f06a57d3-6420-4d1f-9a74-10aea613b832.png"
+            },
+            {
+                "aspectRatio": 0.8755545,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/3c15411a-0740-46e5-9fde-c1a74b9e08bb.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/59110341-dd88-4f20-b99e-aaa97617677e.png"
+            },
+            {
+                "aspectRatio": 0.73784775,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/85c36c0b-bba5-4c67-9ae1-32135c645df5.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/c228b128-7217-403e-aa6f-968e9fa7182d.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009,
+            1045014
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/f8c6fd90-a197-47f1-8170-d446ab7e45ec.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619830,
+                "name": "Studyclix: Leaving Cert Higher Level Maths - 2016 State P1 Q3",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2016/paper-one/solutions/studyclix-leaving-cert-higher-level-maths-2016-state-p1-q3/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/13c08a8b-f14b-4dd9-9cdd-5aed50fab344.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/f06a57d3-6420-4d1f-9a74-10aea613b832.png",
+        "year": "2016",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1154672,
+        "name": "Part a,b",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2016/paper-one/section-a/question-3/part-a-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2016 - Mock paper One - Section A - Question 4 - Part b",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.2436041,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/0c69a909-6ac9-41e5-af49-daad05dbea89.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/807f9ef6-fa20-4334-9591-b44f39ebc18f.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.91247237,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/64389d9f-1f1f-428e-9388-cb3f3eb6e08f.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/2c356999-e2db-43d5-a0cf-1c3f24687fa0.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/807f9ef6-fa20-4334-9591-b44f39ebc18f.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/2c356999-e2db-43d5-a0cf-1c3f24687fa0.png",
+        "year": "2016",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1149979,
+        "name": "Part b",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2016/mock-paper-one/section-a/question-4/part-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2016 - Paper One - Section A - Question 5 - Part a",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.2384305,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/d5312d44-0458-48c6-8dad-7c29e81c1454.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/5c026484-61a6-47e6-bb90-514c42f3e6cd.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.49779135,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/cf93f8f5-3a6d-449f-b9f5-c609f1376cce.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/a3d8256d-e333-408f-abd7-99d02661f3e9.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009,
+            1044891
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/063265e6-22ec-44d8-a390-c3195acc802c.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619708,
+                "name": "Studyclix: Leaving Cert Higher Level Maths - 2016 State P1 Q5",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2016/paper-one/solutions/studyclix-leaving-cert-higher-level-maths-2016-state-p1-q5/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/5c026484-61a6-47e6-bb90-514c42f3e6cd.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/a3d8256d-e333-408f-abd7-99d02661f3e9.png",
+        "year": "2016",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1154554,
+        "name": "Part a",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2016/paper-one/section-a/question-5/part-a/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2016 - Paper One - Section B - Question 8 - Part b",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.1649249,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/f0912ea8-e1c4-4d91-ae05-3e2e3fe2e916.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/7bf89f09-4619-487b-9872-363acb68da40.png"
+            },
+            {
+                "aspectRatio": 0.70714283,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/c27bf5b0-9d7b-4444-80a9-2af50cb6f327.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/ce2b7d72-a5f6-48a7-9540-2648f76ddf6f.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.84484965,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/91aa7de3-f728-43d7-bdde-6e9ce84b47b5.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/67c3d4dd-49cc-4806-ba38-dc559e5f9da5.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/e7be0db2-b3ef-409f-b1f4-db90e7589a84.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619706,
+                "name": "Studyclix: Leaving Cert Higher Level Maths - 2016 State P1 Q8",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2016/paper-one/solutions/studyclix-leaving-cert-higher-level-maths-2016-state-p1-q8/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/7bf89f09-4619-487b-9872-363acb68da40.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/67c3d4dd-49cc-4806-ba38-dc559e5f9da5.png",
+        "year": "2016",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1154440,
+        "name": "Part b",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2016/paper-one/section-b/question-8/part-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2016 - Paper One - Section B - Question 9 - Part b",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.2356391,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/349f9787-67c0-41a9-87b3-5b6e22cb569c.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/41addabd-894d-4a60-9133-4cab2ed2577a.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.41498122,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/70100277-714e-44d2-8af3-b45cd8320b83.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/03b04147-01d2-46b9-a620-c492cd59346c.png"
+            },
+            {
+                "aspectRatio": 0.41591164,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/6298a0bc-8977-4d05-acc5-bbd0e823b96c.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/6e3531f8-6ea1-4756-8f50-33b8d73eeac8.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009,
+            1045617
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/95edd94d-11f6-42ec-990a-2d6a082c3d01.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1619704,
+                "name": "Studyclix: Leaving Cert Higher Level Maths - 2016 State P1 Q9",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2016/paper-one/solutions/studyclix-leaving-cert-higher-level-maths-2016-state-p1-q9/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/41addabd-894d-4a60-9133-4cab2ed2577a.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/03b04147-01d2-46b9-a620-c492cd59346c.png",
+        "year": "2016",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1154437,
+        "name": "Part b",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2016/paper-one/section-b/question-9/part-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2015 - Paper One - Section A - Question 2",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.1788816,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/e9bec493-2da1-465a-8c8e-50798e7439f0.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/3860d03b-92cb-4e50-9b67-acc32836992f.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.03163534,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/e8b78c24-b9b0-4da7-9381-db92da85c77e.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/afc1dc9c-5716-4a4f-89b6-4c9c05d7d913.png"
+            },
+            {
+                "aspectRatio": 0.7806485,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/6d00c077-91dd-49b3-8dc6-fe7bc256ed41.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/332a17bd-2768-40e6-8793-36b4df80f7bd.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/3860d03b-92cb-4e50-9b67-acc32836992f.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/afc1dc9c-5716-4a4f-89b6-4c9c05d7d913.png",
+        "year": "2015",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1126104,
+        "name": "Question 2",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2015/paper-one/section-a/question-2/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2015 - Mock Paper One - Section A - Question 2",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.250115,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/ddb041f1-b38f-43d8-b9d1-ffe4d224e299.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/5e606fc0-e41f-4992-8133-2659b45a0d07.png"
+            },
+            {
+                "aspectRatio": 0.7766712,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/c0d95346-059d-40ec-b082-85a705fb1859.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/72202108-9b9b-4131-921e-5c4adbe857d7.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 1.0524592,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/acdfe87f-7595-4419-b760-0aa525b10fc1.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/66289a53-ed82-4188-b0e9-89cef0ac9468.png"
+            },
+            {
+                "aspectRatio": 0.42414618,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/a8c3486e-505e-49c6-8a6a-a78030a493c2.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/c4e5ca22-e7d4-4b45-9652-19821f527d30.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/5e606fc0-e41f-4992-8133-2659b45a0d07.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/66289a53-ed82-4188-b0e9-89cef0ac9468.png",
+        "year": "2015",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1150047,
+        "name": "Question 2",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2015/mock-paper-one/section-a/question-2/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2015 - Mock Paper One - Section A - Question 3",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.1186104,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/92b9abd4-128e-4f3b-9398-aaea0cbdf3b0.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/31bf178f-456d-4bd7-88a4-ad5404cf9a09.png"
+            },
+            {
+                "aspectRatio": 1.2356979,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/784c77e9-22e5-4b4c-a486-7e8a9b4d3f35.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/83ff4781-5a64-4deb-b992-867bba6d705b.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.7473716,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/5f08d029-c195-4e84-8ccc-850e6bf4fae5.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/72c4595c-9b7a-4660-bfae-002f628d9d0a.png"
+            },
+            {
+                "aspectRatio": 0.602269,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/40fc93fe-54c8-4ed7-aaed-a35ed5dcadbf.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/2fb5bae1-f6c8-4020-a98c-a616a808b6c8.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/31bf178f-456d-4bd7-88a4-ad5404cf9a09.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/72c4595c-9b7a-4660-bfae-002f628d9d0a.png",
+        "year": "2015",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1150046,
+        "name": "Question 3",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2015/mock-paper-one/section-a/question-3/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2014 - Mock Paper One - Section A - Question 2",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.2543008,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/aac44fb0-c820-426d-a799-55dc5524f855.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/1af70e0f-111a-46f2-b3a3-f30b1bd1668b.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 1.1026871,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/83fe121d-7e96-4fa1-98e5-d7256bd5c43a.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/d3f05f0f-cbd4-49f7-abc0-e46f05bf5af5.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/1af70e0f-111a-46f2-b3a3-f30b1bd1668b.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/d3f05f0f-cbd4-49f7-abc0-e46f05bf5af5.png",
+        "year": "2014",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1150069,
+        "name": "Question 2",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2014/mock-paper-one/section-a/question-2/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2014 - Mock Paper One - Section A - Question 3 - Part a",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.1036173,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/1e15d840-7a98-48dd-bf3f-1f243c9a26f1.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/230b9be9-312e-4b82-99fa-5eb417f7c954.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.4482821,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/3d12a8c2-f3f7-4c7a-81f8-703571de1ac6.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/ac6a6534-8218-47d2-82fd-d819be8c6e7a.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/230b9be9-312e-4b82-99fa-5eb417f7c954.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/ac6a6534-8218-47d2-82fd-d819be8c6e7a.png",
+        "year": "2014",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1150068,
+        "name": "Part a",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2014/mock-paper-one/section-a/question-3/part-a/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2014 - Sample Paper One - Section A - Question 4",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.2363499,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/534a41e1-bb97-4a5e-ba32-29528f551b01.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/3240e642-180f-4b3e-8b32-6b6df5e8869d.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 1.1373223,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/343b7eb9-e370-48b2-85d9-ef7d608e4e73.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/cd90e7c4-47a9-4979-b6b7-a9bc322dc69b.png"
+            },
+            {
+                "aspectRatio": 0.9238891,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/3a0615f6-6069-4b97-a231-8da56b73df95.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/04d5ba77-2943-4f3d-b4a0-bf3b69240900.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009,
+            1044987
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/3240e642-180f-4b3e-8b32-6b6df5e8869d.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/cd90e7c4-47a9-4979-b6b7-a9bc322dc69b.png",
+        "year": "2014",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1125487,
+        "name": "Question 4",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2014/sample-paper-one/section-a/question-4/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2013 - Mock Paper One - Section A - Question 1 - Part a",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.0682716,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/936b78bf-ba03-4fe1-875b-34e2198e973e.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/61bd8fa2-8336-4520-bafd-6d986b14699d.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.60133886,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/6549b886-1aed-4788-b582-0aae3c59e6a8.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/ba3e0f6f-7e4f-4317-80be-77f9f9f154d6.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/61bd8fa2-8336-4520-bafd-6d986b14699d.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/ba3e0f6f-7e4f-4317-80be-77f9f9f154d6.png",
+        "year": "2013",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1149399,
+        "name": "Part a",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2013/mock-paper-one/section-a/question-1/part-a/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2013 - Mock Paper One - Section A - Question 1 - Part c",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.1017569,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/b55b9db7-d8b2-4990-b1b6-7a2084d7a066.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/292c8614-cbdd-4283-8d8a-756ef09c82f5.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.51764244,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/343d1a7d-35b2-4b1e-87b8-80fe825d0b0c.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/e1aa65e5-6c15-4e6b-8348-7bec12cbb719.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/292c8614-cbdd-4283-8d8a-756ef09c82f5.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/e1aa65e5-6c15-4e6b-8348-7bec12cbb719.png",
+        "year": "2013",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1149397,
+        "name": "Part c",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2013/mock-paper-one/section-a/question-1/part-c/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2013 - Mock Paper One - Section A - Question 2 - Part c",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.80876124,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/65bcc9f3-57e9-4c22-8c82-3b19961ad772.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/ccd1d1e3-11b1-43a4-85bb-c35377f447a0.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.48042,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/f4468da4-e088-47c8-9175-b143a6854539.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/116d4b14-e338-4d37-ad5f-1ff80d5437ef.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/ccd1d1e3-11b1-43a4-85bb-c35377f447a0.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/116d4b14-e338-4d37-ad5f-1ff80d5437ef.png",
+        "year": "2013",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1149414,
+        "name": "Part c",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2013/mock-paper-one/section-a/question-2/part-c/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2013 - Mock Paper One - Section B - Question 5 - Part b",
+        "headsupMessage": "<p>Question b(i) should read: <em>'Given that on the surface of the Earth, the acceleration (g) due to gravity is 9.81ms<sup>-2 </sup>and the mass of the Earth M = 6x10<sup>24</sup>kg, calculate the radius of the Earth, correct to two significant figures.</em></p>",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.2701132,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/136ca9aa-206d-42bf-a280-5d328b1db91f.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/29d74eca-6f95-4620-ba17-674e1fd0f447.png"
+            },
+            {
+                "aspectRatio": 1.2375581,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/4e1afc9c-7a00-4084-8b08-67ef0db69a00.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/4bb9f9f8-a1fb-417b-a973-41e20ccc21b4.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 1.2436041,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/aa9e7f8f-13fb-448c-b2cb-524183274c9a.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/b2289848-efe8-4069-a436-31dc96f0db38.png"
+            },
+            {
+                "aspectRatio": 0.6627284,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/eb099f4f-b5bc-4a3f-a9a1-253e64d7f7e8.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/af8d065a-39ac-4a07-86b6-6668f9f508df.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/29d74eca-6f95-4620-ba17-674e1fd0f447.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/b2289848-efe8-4069-a436-31dc96f0db38.png",
+        "year": "2013",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1149432,
+        "name": "Part b",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2013/mock-paper-one/section-b/question-5/part-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2013 - Paper One- Project Maths - Section A - Question 2",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.1862321,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/fbf9de53-4e79-4048-b11a-c105e2fbe8d0.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/afe41c14-eb56-4fdd-af9f-a7606b8ce0a8.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 1.202277,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/2091e5ff-be29-40aa-ac79-0ab9fa87bc6b.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/e4ef92ec-e742-4b9c-9c92-a530935dd743.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/afe41c14-eb56-4fdd-af9f-a7606b8ce0a8.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/e4ef92ec-e742-4b9c-9c92-a530935dd743.png",
+        "year": "2013",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1133149,
+        "name": "Question 2",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2013/paper-one-project-maths/section-a/question-2/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2013 - Paper One- Project Maths - Section B - Question 7",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.0589464,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/c73b5f20-fdc5-4d4f-ae52-bc5492c3866b.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/d6f73d1b-ce56-474e-86db-0ef61241c1ce.png"
+            },
+            {
+                "aspectRatio": 1.1933036,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/b625a12d-67f3-4c4a-801e-963b280f0d51.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/c95b8bac-57e8-4d5f-8cac-fc4a3f602d02.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.9376562,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/61bf1856-af4d-4f59-a85a-96b6115667fb.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/f4a9b740-3162-4041-a1f3-6d1f1c723cb5.png"
+            },
+            {
+                "aspectRatio": 1.2072699,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/afa19703-90f5-4e2c-af08-d52a26fb6bfe.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/0cb9b4f5-f459-4ba0-98d3-b45406429579.png"
+            },
+            {
+                "aspectRatio": 0.29364812,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/a9a6f889-55bb-4c33-be49-0d7b4083e1d9.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/d626852a-dc16-4bb1-b626-5433d673b413.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/d6f73d1b-ce56-474e-86db-0ef61241c1ce.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/f4a9b740-3162-4041-a1f3-6d1f1c723cb5.png",
+        "year": "2013",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1133277,
+        "name": "Question 7",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2013/paper-one-project-maths/section-b/question-7/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2012 - Mock Paper One - Section A - Question 2 - Part a-b",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.25206935,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/ea5044ff-d40a-4a43-9b83-d33628ab73d0.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/d060b5c1-9a96-4f54-81d5-ea9c414bbd64.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.7845775,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/034e1594-be5d-4962-8cc9-2bc921d0e5e5.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/168856c7-b7dc-4433-8695-1ece6ad3c267.png"
+            },
+            {
+                "aspectRatio": 0.9027059,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/9041a0da-1a4d-4ce1-90c3-b3210783b444.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/08154fcf-b801-4ca2-8fee-1164bde1aa96.png"
+            },
+            {
+                "aspectRatio": 0.82364357,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/d9822863-a8b2-4a2b-9b34-6931384f66cd.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/dba2c6b9-3163-4eb7-ac02-d5f62924d8ed.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/d060b5c1-9a96-4f54-81d5-ea9c414bbd64.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/168856c7-b7dc-4433-8695-1ece6ad3c267.png",
+        "year": "2012",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 304991,
+        "requiredAccess": null,
+        "id": 1150012,
+        "name": "Part a-b",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/mock-exams/2012/mock-paper-one/section-a/question-2/part-a-b/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2012 - Paper One- Project Maths - Section A - Question 1",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [],
+        "questionSelections": [
+            {
+                "aspectRatio": 1.0996071,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/2a530134-ef5a-452b-b035-542206a50684.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/99210938-f4b5-4ba8-876e-940b1005a9bf.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [
+            {
+                "aspectRatio": 0.84378576,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/abbf0601-6ba5-430b-bd61-5ee2b3cec2d6.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/d4d653f5-b498-4601-84ba-43a67f5d4a0a.png"
+            }
+        ],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/f92e10c3-8eba-4479-9f6c-dba315970c96.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1618524,
+                "name": "Q1b Quadratic Inequality - Project Maths HL Paper 1  (2012)",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2012/paper-one-project-maths/solutions/q1b-quadratic-inequality-project-maths-hl-paper-1-2012/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            },
+            {
+                "folder": "Solutions",
+                "thumbnail": {
+                    "url": "https://blob-static.studyclix.ie/cms/media/thumbnails/78bf6e0d-4e20-4841-9319-0c0381baca2b.png",
+                    "alt": null
+                },
+                "thumbnailIntroduction": "",
+                "type": 1615250,
+                "id": 1618525,
+                "name": "Q1a Simultaneous Equations - Project Maths HL Paper 1  (2012)",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2012/paper-one-project-maths/solutions/q1a-simultaneous-equations-project-maths-hl-paper-1-2012/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/99210938-f4b5-4ba8-876e-940b1005a9bf.png",
+        "markingSchemeThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/d4d653f5-b498-4601-84ba-43a67f5d4a0a.png",
+        "year": "2012",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1128728,
+        "name": "Question 1",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2012/paper-one-project-maths/section-a/question-1/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    },
+    {
+        "fullName": "2012 - Project Maths Paper One Sample - Section A - Question 4",
+        "headsupMessage": "",
+        "questionText": "",
+        "markingSchemeText": "",
+        "questionParts": [
+            {
+                "fullName": "2012 - Project Maths Paper One Sample - Section A - Question 4 - Part b",
+                "headsupMessage": "",
+                "questionText": "",
+                "markingSchemeText": "",
+                "questionParts": [],
+                "questionSelections": [
+                    {
+                        "aspectRatio": 0.5445,
+                        "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/8a602381-8521-4332-974f-b08b607e56c9.png",
+                        "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/f49c16d0-1046-45e3-81d2-a7de9baa2256.png"
+                    }
+                ],
+                "audioSelections": [],
+                "markingSchemeSelections": [],
+                "supplementSelections": [],
+                "topics": [
+                    1045014
+                ],
+                "relatedArticles": [],
+                "questionTypes": [],
+                "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/f49c16d0-1046-45e3-81d2-a7de9baa2256.png",
+                "markingSchemeThumbnail": null,
+                "year": "2012",
+                "subject": 1042690,
+                "accessError": null,
+                "contentSource": null,
+                "requiredAccess": null,
+                "id": 1132449,
+                "name": "Part b",
+                "sortOrder": 0,
+                "url": "/leaving-certificate/mathematics/higher/state-exams/2012/project-maths-paper-one-sample/section-a/question-4/part-b/",
+                "parent": 0,
+                "updateDate": "0001-01-01T00:00:00Z",
+                "path": null
+            }
+        ],
+        "questionSelections": [
+            {
+                "aspectRatio": 0.6770893,
+                "imageUrl": "https://blob-static.studyclix.ie/cms/media/pdfSelections/e37f3de2-4028-4ea9-a1ee-3bddd0813f5f.png",
+                "thumbnailUrl": "https://blob-static.studyclix.ie/cms/media/thumbnails/a8b50e18-905d-4148-93ab-bb15fc279a7f.png"
+            }
+        ],
+        "audioSelections": [],
+        "markingSchemeSelections": [],
+        "supplementSelections": [],
+        "topics": [
+            1045009
+        ],
+        "relatedArticles": [],
+        "questionTypes": [],
+        "questionThumbnail": "https://blob-static.studyclix.ie/cms/media/thumbnails/a8b50e18-905d-4148-93ab-bb15fc279a7f.png",
+        "markingSchemeThumbnail": null,
+        "year": "2012",
+        "subject": 1042690,
+        "accessError": null,
+        "contentSource": 305002,
+        "requiredAccess": null,
+        "id": 1132448,
+        "name": "Question 4",
+        "sortOrder": 0,
+        "url": "/leaving-certificate/mathematics/higher/state-exams/2012/project-maths-paper-one-sample/section-a/question-4/",
+        "parent": 0,
+        "updateDate": "0001-01-01T00:00:00Z",
+        "path": null
+    }
+]

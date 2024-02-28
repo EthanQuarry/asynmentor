@@ -1,4 +1,5 @@
 import { db } from "@/config/db";
+import { MarkingSchemeSections, QuestionSections } from "@prisma/client";
 
 
 export const getProfileImg = async (id: string | undefined) => {
@@ -27,4 +28,14 @@ export const getQuestions = async (subject: string) => {
         return questions
     }
     else return []
+}
+
+export interface Questions {
+    question: {
+        id: string;
+        subject: string;
+        fullName: string;
+        questionSections: QuestionSections[];
+        markingSchemeSections: MarkingSchemeSections[];
+    }
 }

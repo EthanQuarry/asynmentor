@@ -14,7 +14,6 @@ const TextRecognition = ({ selectedImage }: { selectedImage: string}) => {
         headers: {
           'Content-Type': 'application/json',
         },
-        cache: 'no-cache',
       });
         if (!response.ok) {
           throw new Error(`Failed to recognize text: Status ${response.status}`);

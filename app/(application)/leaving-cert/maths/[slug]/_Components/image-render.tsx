@@ -21,7 +21,7 @@ export function ImageRender({ questions }: { questions: ImageRenderProps[] }) {
                                 <h2>{question.fullName}</h2>
                              
 
-                                <TextRecognition selectedImage={question.questionSections[1].imageUrl} />
+                                <TextRecognition selectedImage={question.questionSections[0].imageUrl} />
                                 
                                 <div className="flex flex-col space-y-5">
                                 {question.questionSections.map((section, sectionIndex) => (

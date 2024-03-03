@@ -12,11 +12,15 @@ export default async function Page({ params }: { params: { slug: string } }) {
 
             const questions = await getQuestions(item.url)
             return (
-                <div>
+                <div className="w-full flex flex-col justify-center  text-center">
                     <NavbarBreadcrumbs />
                     <Divider />
-                   <h1>{item.name}</h1>
-                   <ImageRender questions={questions} />
+                    <div className="">
+                        <h1>{item.name}</h1>
+                    </div>
+
+
+                    <ImageRender questions={questions} />
                 </div>
             )
         }

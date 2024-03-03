@@ -2,10 +2,13 @@
 import { QuestionSections, Questions } from "@prisma/client";
 import TextRecognition from "@/config/helpers/ocr";
 import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
-
+import React, { useState, useEffect } from 'react';
 interface ImageRenderProps extends Questions {
     questionSections: QuestionSections[]
 }
+
+
+// TODO: Complete refactor of this component and sub component to match system design
 
 export async function ImageRender({ questions }: { questions: ImageRenderProps[] }) {
     const content = await fetch("http://localhost:3000/api/ocr", {

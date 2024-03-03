@@ -8,3 +8,6 @@
 6. PostgreSQL
 7. Vercel
 8. OpenAI
+9. Google Gemini
+10. Tesseract.js
+11. NextUI

@@ -7,8 +7,10 @@ interface ImageRenderProps extends Questions {
     questionSections: QuestionSections[]
 }
 
-export function ImageRender({ questions }: { questions: ImageRenderProps[] }) {
-    
+export async function ImageRender({ questions }: { questions: ImageRenderProps[] }) {
+        const content = await fetch("http://localhost:3000/api")
+        const { text } = await content.json()
+        
     return (
         <>
                     {questions.map((question, index) => {
@@ -21,7 +23,7 @@ export function ImageRender({ questions }: { questions: ImageRenderProps[] }) {
                                 <h2>{question.fullName}</h2>
                              
 
-                                <TextRecognition selectedImage={question.questionSections[0].imageUrl} />
+                                <TextRecognition text={text} />
                                 
                                 <div className="flex flex-col space-y-5">
                                 {question.questionSections.map((section, sectionIndex) => (

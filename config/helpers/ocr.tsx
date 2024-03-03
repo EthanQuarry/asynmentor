@@ -1,35 +1,30 @@
 "use client"
-import { useEffect, useState } from "react";
 
+import { useState, useEffect, useRef} from 'react';
+// @ts-ignore
+import renderMathInElement  from 'katex/dist/contrib/auto-render';
+import 'katex/dist/katex.min.css';
 
+export default function TextRecognition({ text }: { text: string }) {
+  const katexTextRef = useRef<HTMLDivElement | null >(null);
 
-const TextRecognition = ({ selectedImage }: { selectedImage: string}) => {
-
-  const [recognizedText, setRecognizedText] = useState<string>('');
   useEffect(() => {
-    const getText = async () => {
-      const response = await fetch('/api/ocr', {
-        method: 'POST',
-        body: JSON.stringify({ url: selectedImage }),
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      });
-        if (!response.ok) {
-          throw new Error(`Failed to recognize text: Status ${response.status}`);
+        if (katexTextRef.current) {
+          renderMathInElement(katexTextRef.current, {
+            delimiters: [
+              { left: '$$', right: '$$', display: true },
+              { left: '$', right: '$', display: false },
+            ],
+          });
         }
-        const { text } = await response.json();
-        setRecognizedText(text);
-      }
-      
-  
-    getText()
-  }, [selectedImage]);
+
+  }, [text]);
+
+  // Render the MDX content using your preferred library (replace with your actual implementation)
+
   return (
-    <div>
-      <h2>Recognized Text:</h2>
-      <h2>{recognizedText}</h2>
-    </div>
-  );
-};
-export default TextRecognition;
+  <div ref={katexTextRef}>
+    {text}
+  </div>
+  )
+}

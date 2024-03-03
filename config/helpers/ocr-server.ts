@@ -6,7 +6,6 @@ import {
 } from '@google/generative-ai';
 import { GoogleGenerativeAIStream, StreamingTextResponse } from 'ai';
 import { createWorker } from "tesseract.js";
-import markdownToHtml from '@/config/helpers/markdown-to-html';
 const Groq = require('groq-sdk');
 
 // const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
@@ -14,10 +13,8 @@ const Groq = require('groq-sdk');
 // TODO: This is the messiest thing I have ever created, please fix it in the future.
 
 
-export async function POST(request: Request) {
+export async function ocrServer({ url}: { url: string}): Promise<Data | unknown> {
   try {
-    // Parse the request body to get the image URL
-    const { url } = await request.json();
     // Fetch the image server-side where CORS is not an issue
     const imageResponse = await fetch(url);
     if (!imageResponse.ok) {
@@ -38,7 +35,7 @@ export async function POST(request: Request) {
     const groq = new Groq({
       apiKey: process.env.GROQ_API_KEY
     });
-    const chatCompletion = await groq.chat.completions.create({
+    const chatCompletion: CompletionData = await groq.chat.completions.create({
       messages: [
         {
           role: "user",
@@ -56,21 +53,14 @@ export async function POST(request: Request) {
       model: "mixtral-8x7b-32768",
     })
     
-
-    const content = await markdownToHtml(chatCompletion.choices[0]?.message.content);
-    console.log(content);
-      return new Response(JSON.stringify({ 
-        text: await content,
+    const data: Data = { 
+        text: await chatCompletion.choices[0]?.message.content || "",
         completion: await chatCompletion.usage.completion_time,
         total_time: await chatCompletion.usage.total_time,
  
-      }), {
-        status: 200,
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      })
+      }
 
+      return data
 
 
 
@@ -78,17 +68,12 @@ export async function POST(request: Request) {
 
     } catch (error) {
       // Handle errors appropriately
-      console.error(error);
-      return new Response(JSON.stringify({ error }), {
-        status: 500,
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      });
+        console.error(error);
+        return error
     }
   }
 
-  export interface Data {
+  interface Data {
     text: string;
     completion: number;
     total_time: number;

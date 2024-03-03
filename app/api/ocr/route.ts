@@ -6,7 +6,6 @@ import {
 } from '@google/generative-ai';
 import { GoogleGenerativeAIStream, StreamingTextResponse } from 'ai';
 import { createWorker } from "tesseract.js";
-import markdownToHtml from '@/config/helpers/markdown-to-html';
 const Groq = require('groq-sdk');
 
 // const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
@@ -41,12 +40,28 @@ export async function POST(request: Request) {
     const chatCompletion = await groq.chat.completions.create({
       messages: [
         {
+          role: "system",
+          content: `You are a leaving certificate mathmatics tutor. 
+
+          Your number one priority is to break down the problem, and explain it as if you were explaining it to a child. Using stories is acceptable
+          
+           Secondly, explain the required question in as much detail as possible. It is paramount that you prepare your answers in a format where almost anybody could understand how you reached a particular outcome.
+          
+          Here is the exact process:
+          1. Solve the problem step by step and explain any referenced function or formulae.
+          2. Explain how you reached the outcome and the exact rules you followed.
+          3. Return this in a structured format easy for anyone to understand.
+          
+          You are to return all your solutions in Katex the mathmatical typesetting language.
+          `
+        },
+        {
           role: "user",
           content: "Question 1 (30 marks)(a) Find the two values of m € R for which | 5 + 3m| = 11.(b) For the real numbers h, j, and k:1 k hk Express k in terms of hand j.",
         },
         {
           role: "assistant",
-          content: "To solve these problems, we will approach them step by step.### Part (a): Find the two values of \(m \in \mathbb{R}\) for which \(|5 + 3m| = 11\).The equation \(|5 + 3m| = 11\) means that the absolute value of \(5 + 3m\) is 11. This implies that \(5 + 3m\) can be either 11 or -11, because the absolute value function yields the distance of a number from 0 on the number line, without considering direction. Therefore, we have two cases:1. \(5 + 3m = 11\)2. \(5 + 3m = -11\)We solve these equations separately to find the values of \(m\).#### Case 1: \(5 + 3m = 11\)Subtracting 5 from both sides, we get:\[3m = 11 - 5\]\[3m = 6\]Dividing by 3:\[m = \frac{6}{3}\]\[m = 2\]#### Case 2: \(5 + 3m = -11\)Subtracting 5 from both sides, we get:\[3m = -11 - 5\]\[3m = -16\]Dividing by 3:\[m = \frac{-16}{3}\]So, the two values of \(m\) for which \(|5 + 3m| = 11\) are \(m = 2\) and \(m = -\frac{16}{3}\).### Part (b): Express \(k\) in terms of \(h\) and \(j\).Given the equation:\[1 = \frac{k}{h} + \frac{h}{k}\]First, we need to solve this equation for \(k\). This involves a bit of algebraic manipulation. To simplify the equation, it's helpful to have a common denominator, which in this case would be \(hk\). Let's multiply both sides of the equation by \(hk\) to eliminate the fractions:\[hk = k + h\]This simplifies to:\[hk - k = h\]Factoring out \(k\) from the left side gives us:\[k(h - 1) = h\]And finally, solving for \(k\):\[k = \frac{h}{h - 1}\]However, it seems there might have been a mistake in the interpretation of the original equation as it relates to expressing \(k\) in terms of \(h\) and \(j\), since \(j\) was not mentioned in the provided equation. If there's a specific relation involving \(h\), \(j\), and \(k\) that was meant to be addressed, please provide the correct equation or relationship for further assistance.",
+          content: "Okay we'll tackle this problem step by step. First we need to find two values of m for which they are whole rational numbers. What does this mean? Well, first of all we need to acknowledge what we've been given. The abslute value of 5 + 3m = 11. Now we cant exactly bring everything to one side since the absolute value sign is there. So there are two ways to get rid of the absolute value sign. Square both sides OR have to equations, 1 plus 11 and the other minus 11. Lets square both sides and see what happens",
         },
         {
           role: "user",
@@ -56,11 +71,17 @@ export async function POST(request: Request) {
       model: "mixtral-8x7b-32768",
     })
     
+    if (!chatCompletion) {
+      return new Response(JSON.stringify({ error: "Error completing the chat" }), {
+        status: 500,
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+    }
 
-    const content = await markdownToHtml(chatCompletion.choices[0]?.message.content);
-    console.log(content);
       return new Response(JSON.stringify({ 
-        text: await content,
+        text: await chatCompletion.choices[0].message.content,
         completion: await chatCompletion.usage.completion_time,
         total_time: await chatCompletion.usage.total_time,
  

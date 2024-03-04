@@ -6,7 +6,11 @@ export default function TextRecognition({ text }: { text: string}) {
   const containerRef = useRef<HTMLInputElement>(null);
   useEffect(() => {
     if (containerRef.current) {
-      const processedText = text
+      if (!text) {
+        containerRef.current.innerHTML = "No Text";
+        return;
+      } else {
+        const processedText = text
         .split('\n\n') // Split by double newline to separate paragraphs
         .map(paragraph => {
           // Split paragraph by LaTeX delimiters, keeping the delimiters
@@ -25,8 +29,12 @@ export default function TextRecognition({ text }: { text: string}) {
         })
         .join('<p></p>'); // Add paragraphs
 
+
+        containerRef.current.innerHTML = `<p>${processedText}</p>`;
+      }
+
       // Render the processed text as HTML inside the container
-      containerRef.current.innerHTML = `<p>${processedText}</p>`;
+
     }
   }, [text]);
 

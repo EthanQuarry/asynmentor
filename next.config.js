@@ -16,6 +16,9 @@ const nextConfig = {
 		return config;
 	},
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
+  experimental: {
+    serverComponentsExternalPackages: ['tesseract.js'],
+  },
 }
 
 const withMDX = require('@next/mdx')({

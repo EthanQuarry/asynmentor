@@ -1,4 +1,5 @@
 import { Buffer } from 'buffer';
+// @ts-ignore
 import { createWorker } from "tesseract.js";
 const Groq = require('groq-sdk');
 
@@ -20,11 +21,51 @@ export async function POST(request: Request) {
     // Convert the image to a buffer for Tesseract.js
     const arrayBuffer = await imageResponse.arrayBuffer();
     const buffer = Buffer.from(arrayBuffer);
-    const worker = await createWorker("eng", 1, { workerPath: "./node_modules/tesseract.js/src/worker-script/node/index.js" });
+    let OCRResponse = "";
+    (async () => {
+      const worker = await createWorker("eng", 1, {
+        logger: m => console.log(m),
+      });  
+      const { data: { text } } = await worker.recognize(buffer);
+      console.log(text);
+      OCRResponse = text;
+      await worker.terminate();
+    })();
 
-    const { data: { text } } = await worker.recognize(buffer);
+    if (OCRResponse != "") {
+      
 
-    await worker.terminate();
+    const groq = new Groq({
+      apiKey: process.env.GROQ_API_KEY
+    });
+    const chatCompletion = await groq.chat.completions.create({
+      messages: [
+        {
+          role: "system",
+          content: `You are a leaving certificate mathmatics tutor. 
+
+          Your number one priority is to break down the problem, and explain it as if you were explaining it to a child. Using stories is acceptable
+          
+           Secondly, explain the required question in as much detail as possible. It is paramount that you prepare your answers in a format where almost anybody could understand how you reached a particular outcome.
+          
+          Here is the exact process:
+          1. Solve the problem step by step and explain any referenced function or formulae.
+          2. Explain how you reached the outcome and the exact rules you followed.
+          3. Return this in a structured format easy for anyone to understand.
+          
+          You are to return all your solutions in Katex the mathmatical typesetting language.
+
+          The response but be no more than 500 characters long.
+          `
+        },
+        {
+          role: "user",
+          content: OCRResponse
+        }
+      ],
+      model: "mixtral-8x7b-32768",
+    })
+    }
 
 
 
@@ -53,7 +94,7 @@ export async function POST(request: Request) {
         },
         {
           role: "user",
-          content: text
+          content: OCRResponse
         }
       ],
       model: "mixtral-8x7b-32768",
@@ -79,11 +120,6 @@ export async function POST(request: Request) {
           'Content-Type': 'application/json',
         },
       })
-
-
-
-
-
 
     } catch (error) {
       // Handle errors appropriately

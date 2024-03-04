@@ -17,7 +17,7 @@ export function TextContainer({ url, isActive}: { url: string, isActive: boolean
                     setCompletion(completion);
                 } else {
                     // If not in localStorage, fetch from API
-                    const content = await fetch("http://localhost:3000/api/ocr", {
+                    const content = await fetch("/api/ocr", {
                         method: "POST",
                         body: JSON.stringify({ url: url }),
                         headers: {

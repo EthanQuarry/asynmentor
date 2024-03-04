@@ -11,7 +11,7 @@ interface ImageRenderProps extends Questions {
 }
 
 
-// TODO: Complete refactor of this component and sub component to match system design
+// TODO: this entire component lifecycle is way to messy, fix this in the future.
 
 export function QuestionContainer({ questions }: { questions: ImageRenderProps[] }) {
     const [openModalId, setOpenModalId] = useState<null | string>(null);

@@ -53,15 +53,9 @@ export async function POST(request: Request) {
           3. Return this in a structured format easy for anyone to understand.
           
           You are to return all your solutions in Katex the mathmatical typesetting language.
+
+          The response but be no more than 500 characters long.
           `
-        },
-        {
-          role: "user",
-          content: "Question 1 (30 marks)(a) Find the two values of m € R for which | 5 + 3m| = 11.(b) For the real numbers h, j, and k:1 k hk Express k in terms of hand j.",
-        },
-        {
-          role: "assistant",
-          content: "Okay we'll tackle this problem step by step. First we need to find two values of m for which they are whole rational numbers. What does this mean? Well, first of all we need to acknowledge what we've been given. The abslute value of 5 + 3m = 11. Now we cant exactly bring everything to one side since the absolute value sign is there. So there are two ways to get rid of the absolute value sign. Square both sides OR have to equations, 1 plus 11 and the other minus 11. Lets square both sides and see what happens",
         },
         {
           role: "user",

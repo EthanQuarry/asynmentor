@@ -2,7 +2,7 @@ import { maths } from "@/config/subjects";
 import { getQuestions } from "@/config/helpers/dbqueries";
 import { NavbarBreadcrumbs } from "@/components/application/navbar-breadcrumbs";
 import { Divider } from "@nextui-org/react";
-import { ImageRender } from "./_Components/image-render";
+import { QuestionContainer } from "./_Components/question-container";
 
 export default async function Page({ params }: { params: { slug: string } }) {
 
@@ -20,7 +20,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
                     </div>
 
 
-                    <ImageRender questions={questions} />
+                    <QuestionContainer questions={questions} />
                 </div>
             )
         }

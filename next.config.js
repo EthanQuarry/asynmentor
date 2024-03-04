@@ -17,7 +17,7 @@ const nextConfig = {
 	},
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
   experimental: {
-    serverComponentsExternalPackages: ['tesseract.js'],
+    serverComponentsExternalPackages: ['tesseract.js', 'tesseract.js-core'],
   },
 }
 

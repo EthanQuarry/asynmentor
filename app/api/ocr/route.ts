@@ -1,10 +1,4 @@
 import { Buffer } from 'buffer';
-import {
-  GoogleGenerativeAI,
-  HarmCategory,
-  HarmBlockThreshold,
-} from '@google/generative-ai';
-import { GoogleGenerativeAIStream, StreamingTextResponse } from 'ai';
 import { createWorker } from "tesseract.js";
 const Groq = require('groq-sdk');
 

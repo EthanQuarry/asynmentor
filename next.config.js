@@ -15,10 +15,7 @@ const nextConfig = {
 		config.externals.push("@node-rs/argon2", "@node-rs/bcrypt");
 		return config;
 	},
-  pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
-  experimental: {
-    serverComponentsExternalPackages: ['tesseract.js', 'tesseract.js-core'],
-  },
+  pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx']
 }
 
 const withMDX = require('@next/mdx')({

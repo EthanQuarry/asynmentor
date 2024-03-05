@@ -1,7 +1,7 @@
 import { Buffer } from 'buffer';
-// @ts-ignore
-import { createWorker } from "@/tesseract.js/src/index.js";
 const Groq = require('groq-sdk');
+// @ts-ignore
+import { createWorker } from " https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.esm.min.js"
 
 
 
@@ -24,8 +24,7 @@ export async function POST(request: Request) {
    
     let OCRResponse = await new Promise(async (resolve, reject) => {
       const worker = await createWorker("eng", 1, {
-        logger: (m: any) => console.log(m),
-        workerPath: "./tesseract.js/src/worker-script/node/index.js",
+        logger: (m: any) => console.log(m)
       });
       try {
         const { data: { text } } = await worker.recognize(buffer);

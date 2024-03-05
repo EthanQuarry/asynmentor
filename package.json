@@ -71,6 +71,7 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "@builder.io/partytown": "^0.10.0",
     "@types/bcrypt": "^5.0.2",
     "@types/katex": "^0.16.7",
     "@types/node": "^20",

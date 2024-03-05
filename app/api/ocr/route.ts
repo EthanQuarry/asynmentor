@@ -1,8 +1,5 @@
 import { Buffer } from 'buffer';
 const Groq = require('groq-sdk');
-// @ts-ignore
-import { createWorker } from " https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.esm.min.js"
-
 
 
 // TODO: This is the messiest thing I have ever created, please fix it in the future.
@@ -11,32 +8,8 @@ import { createWorker } from " https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/
 export async function POST(request: Request) {
   try {
     // Parse the request body to get the image URL
-    const { url } = await request.json();
-    // Fetch the image server-side where CORS is not an issue
-    const imageResponse = await fetch(url);
-    if (!imageResponse.ok) {
-      throw new Error(url);
-    }
-
-    // Convert the image to a buffer for Tesseract.js
-    const arrayBuffer = await imageResponse.arrayBuffer();
-    const buffer = Buffer.from(arrayBuffer);
-   
-    let OCRResponse = await new Promise(async (resolve, reject) => {
-      const worker = await createWorker("eng", 1, {
-        logger: (m: any) => console.log(m)
-      });
-      try {
-        const { data: { text } } = await worker.recognize(buffer);
-        console.log(text);
-        resolve(text);
-      } catch (error) {
-        reject(error);
-      } finally {
-        await worker.terminate();
-      }
-    });
-
+    const { OCRResponse } = await request.json();
+    console.log("OCR response: ", OCRResponse);
     // Initialize Groq with API key
     const groq = new Groq({
       apiKey: process.env.GROQ_API_KEY

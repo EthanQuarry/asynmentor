@@ -19,10 +19,29 @@ export function TextContainer({ url, isActive }: { url: string, isActive: boolea
                 } else {
                     // If not in localStorage, fetch from API
 
-                    let OCRResponse = await new Promise(async (resolve, reject) => {
+                    let BufferResponse = await new Promise<Buffer>(async (resolve, reject) => {
                         try {
-
-                            const textFromQ = await convertor(url);
+                            
+                            const BufferData = await fetch("/api/get-buffer", {
+                                method: "POST",
+                                body: JSON.stringify({ url }),
+                                headers: {
+                                    "Content-Type": "application/json"
+                                }
+                            });
+                            const data = await BufferData.json();
+                            console.log("Data from Buffer: ", data.buffer.data);
+                            resolve(data.buffer.data); // Ensure this line is present to return the Buffer
+                        } catch (error) {
+                            console.error("Error in Buffer data process:", error);
+                            reject(error); // Reject the promise with the error
+                        }
+                    });
+                    
+                    
+                    let OCRResponse = await new Promise<string>(async (resolve, reject) => {
+                        try {
+                            const textFromQ = await convertor(BufferResponse);
                             console.log("Text from OCR: ", textFromQ);
                             resolve(textFromQ); // Resolve the promise with the OCR result
                         } catch (error) {
@@ -34,7 +53,6 @@ export function TextContainer({ url, isActive }: { url: string, isActive: boolea
 
 
                     try {
-                        await OCRResponse;
                         const content = await fetch("/api/ocr", {
                             method: "POST",
                             body: JSON.stringify({ OCRResponse }),

@@ -44,25 +44,25 @@ model Questions {
   markingSchemeSections MarkingSchemeSections[]
   questionThumbnail String?
   markingSchemeThumbnail String?
-  year String
+  year String?
   subject String
   name String
 }
 
 model QuestionSections {
   imageUrl String @id @unique
-  thumbnailUrl String
+  thumbnailUrl String?
   questionId String
   question Questions @relation(fields: [questionId], references: [fullName])
-  aspectRatio Float
-  index Int
+  aspectRatio Float?
+  index Int?
 }
 
 model MarkingSchemeSections {
   imageUrl String @id @unique
-  thumbnailUrl String
+  thumbnailUrl String?
   questionId String
   question Questions @relation(fields: [questionId], references: [fullName])
-  aspectRatio Float
-  index Int
+  aspectRatio Float?
+  index Int?
 }

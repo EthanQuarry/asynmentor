@@ -11,3 +11,4 @@
 9. Google Gemini
 10. Tesseract.js
 11. NextUI
+12. Groq LPU's

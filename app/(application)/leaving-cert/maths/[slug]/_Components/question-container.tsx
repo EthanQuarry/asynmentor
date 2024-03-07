@@ -63,15 +63,16 @@ export function QuestionContainer({ questions }: { questions: ImageRenderProps[]
                                                 {(onClose) => (
                                                     <>
                                                         <ModalHeader className="flex flex-col gap-1">{section.index}</ModalHeader>
-                                                        <ModalBody>
+                                                        <ModalBody className="md:px-10  text-center">
                                                         <TextContainer url={section.imageUrl} isActive={openModalId === uniqueId}/>
                                                         </ModalBody>
                                                         <ModalFooter>
-                                                            <Button color="danger" variant="light" onPress={onClose}>
-                                                                Close
-                                                            </Button>
+                                                            
                                                             <Button color="primary" onPress={onClose}>
                                                                 Action
+                                                            </Button>
+                                                            <Button color="danger" variant="light" onPress={onClose}>
+                                                                Close
                                                             </Button>
                                                         </ModalFooter>
                                                     </>

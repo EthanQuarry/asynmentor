@@ -20,15 +20,7 @@ export async function POST(request: Request) {
       messages: [
         {
           role: "system",
-          content: `You are a leaving certificate mathmatics tutor. 
-          Your number one priority is to break down the problem, and explain it as if you were explaining it to a child. Using stories is acceptable.
-          Secondly, explain the required question in as much detail as possible. It is paramount that you prepare your answers in a format where almost anybody could understand how you reached a particular outcome.
-          Here is the exact process:
-          1. Solve the problem step by step and explain any referenced function or formulae.
-          2. Explain how you reached the outcome and the exact rules you followed.
-          3. Return this in a structured format easy for anyone to understand.
-          You are to return all your solutions in Katex the mathmatical typesetting language.
-          The response but be no more than 500 characters long.`
+          content: ``
         },
         {
           role: "user",

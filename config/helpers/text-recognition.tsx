@@ -8,7 +8,7 @@ export default function TextRecognition({ text }: { text: string }) {
   useEffect(() => {
     if (containerRef.current) {
       if (!text) {
-        containerRef.current.innerHTML = "No Text";
+        containerRef.current.innerHTML = "Loading...";
         return;
       } else {
         const processedText = text

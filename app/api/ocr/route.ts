@@ -49,7 +49,7 @@ export async function POST(request: Request) {
                        I have difficulty understanding the solutions to problems so your job is explaining the how and why as if you are explaining them to a child. 
                        Below I have provided the marking scheme to a question I don't understand at all. 
                        Please explain it as simple as possible and predict certain keywords or concepts I may not understand. 
-                       Don't forget to return the solution in valid KaTex Markdown. 
+                       Don't forget to return the solution in valid KaTex Markdown, you do not have to mention this in your response. 
                        Provide the solution and then the explanation of certain keywords or concepts. ${OCRResponse}`
             }
           ]

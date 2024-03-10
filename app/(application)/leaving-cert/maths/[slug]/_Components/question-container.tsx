@@ -1,13 +1,14 @@
 
 "use client"
 
-import { QuestionSections, Questions } from "@prisma/client";
+import { MarkingSchemeSections, QuestionSections, Questions} from "@prisma/client";
 import { Card, CardBody, Image, ModalBody, Button, Modal, ModalContent, ModalFooter, ModalHeader, useDisclosure } from "@nextui-org/react";
 import { TextContainer } from "./text-container";
 import { useState } from "react";
 
 interface ImageRenderProps extends Questions {
     questionSections: QuestionSections[]
+    markingSchemeSections: MarkingSchemeSections[]
 }
 
 
@@ -35,6 +36,7 @@ export function QuestionContainer({ questions }: { questions: ImageRenderProps[]
                             className="py-4 bg-[#330c3d] max-w-[750px]">
                             {question.questionSections.map((section, sectionIndex) => {
                                 const uniqueId = section.imageUrl
+                                const schemeUrl = question.markingSchemeSections[sectionIndex].imageUrl
                                 return (
                                     <div className="flex flex-col items-center justify-center space-y-5" key={sectionIndex}>
                                     <Image
@@ -47,13 +49,16 @@ export function QuestionContainer({ questions }: { questions: ImageRenderProps[]
                                     <CardBody>
                                         <Button variant="bordered" onPress={() => handleOpenModal(uniqueId)}>Answer</Button>
                                         <Modal
-                                            size="full"
+                                            size="lg"
+
                                             isOpen={openModalId === uniqueId} 
                                             onClose={handleCloseModal}
+                                            placement="center"
+                                            scrollBehavior="inside"
                                             classNames={{
                                                 body: "py-6",
-                                                backdrop: "bg-[#292f46]/50 backdrop-opacity-40",
-                                                base: "border-[#292f46] bg-[#19172c] dark:bg-[#19172c] text-[#a8b0d3]",
+                                                backdrop: "bg-[#532477]/50 backdrop-opacity-40",
+                                                base: "border-[#292f46] bg-[#1e0d2b] dark:bg-[#1e0d2b] text-[#fff]",
                                                 header: "border-b-[1px] border-[#292f46]",
                                                 footer: "border-t-[1px] border-[#292f46]",
                                                 closeButton: "hover:bg-white/5 active:bg-white/10",
@@ -64,7 +69,7 @@ export function QuestionContainer({ questions }: { questions: ImageRenderProps[]
                                                     <>
                                                         <ModalHeader className="flex flex-col gap-1">{section.index}</ModalHeader>
                                                         <ModalBody className="md:px-10  text-center">
-                                                        <TextContainer url={section.imageUrl} isActive={openModalId === uniqueId}/>
+                                                        <TextContainer url={schemeUrl} isActive={openModalId === uniqueId}/>
                                                         </ModalBody>
                                                         <ModalFooter>
                                                             

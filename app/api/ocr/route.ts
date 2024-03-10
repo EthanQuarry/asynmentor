@@ -1,5 +1,6 @@
 import { Buffer } from 'buffer';
 const Groq = require('groq-sdk');
+import Anthropic from "@anthropic-ai/sdk";
 
 
 // TODO: This is the messiest thing I have ever created, please fix it in the future.
@@ -15,6 +16,9 @@ export async function POST(request: Request) {
       apiKey: process.env.GROQ_API_KEY
     });
 
+    const anthropic = new Anthropic({
+      apiKey: process.env.CLAUDE_API_KEY, 
+    });
     // Proceed with Groq API request using OCRResponse
     const chatCompletion = await groq.chat.completions.create({
       messages: [
@@ -30,10 +34,34 @@ export async function POST(request: Request) {
       model: "mixtral-8x7b-32768",
     });
 
+    const msg = await anthropic.messages.create({
+      model: "claude-3-sonnet-20240229",
+      max_tokens: 1000,
+      temperature: 0.4,
+      system: "You are a leaving certificate maths tutor. You job is to solve questions in the most simplistic way possible and then explain the solutions as if explaining to a child. \n\nYou will return your solutions in valid KaTex Markdown format.\n",
+      messages: [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": `You are my friendly leaving cert maths tutor, 
+                       I have difficulty understanding the solutions to problems so your job is explaining the how and why as if you are explaining them to a child. 
+                       Below I have provided the marking scheme to a question I don't understand at all. 
+                       Please explain it as simple as possible and predict certain keywords or concepts I may not understand. 
+                       Don't forget to return the solution in valid KaTex Markdown. 
+                       Provide the solution and then the explanation of certain keywords or concepts. ${OCRResponse}`
+            }
+          ]
+        }
+      ]
+    });
+    console.log(msg.content[0].text);
+
     // Handle the response from Groq API
     console.log(chatCompletion.choices[0].message.content);
     
-    if (!chatCompletion) {
+    if (!msg) {
       return new Response(JSON.stringify({ error: "Error completing the chat" }), {
         status: 500,
         headers: {
@@ -43,9 +71,9 @@ export async function POST(request: Request) {
     }
 
       return new Response(JSON.stringify({ 
-        text: await chatCompletion.choices[0].message.content,
-        completion: await chatCompletion.usage.completion_time,
-        total_time: await chatCompletion.usage.total_time,
+        text: msg.content[0].text,
+        completion: 0,
+        total_time: 0,
  
       }), {
         status: 200,
@@ -103,51 +131,3 @@ export async function POST(request: Request) {
     total_time: number;
   }
   
-
-
-// const model = await genAI.getGenerativeModel({ model: 'gemini-pro' })
-
-// const generationConfig = {
-//   temperature: 1,
-//   topK: 32,
-//   topP: 1,
-//   maxOutputTokens: 4096,
-// };
-
-// const safetySettings = [
-//   {
-//     category: HarmCategory.HARM_CATEGORY_HARASSMENT,
-//     threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
-//   },
-//   {
-//     category: HarmCategory.HARM_CATEGORY_HATE_SPEECH,
-//     threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
-//   },
-//   {
-//     category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
-//     threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
-//   },
-//   {
-//     category: HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
-//     threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
-//   },
-// ];
-
-// const parts = [
-//   { text: "input: Question 1 (30 marks)(a) Find the two values of m € R for which | 5 + 3m| = 11.(b) For the real numbers h, j, and k:1 k hk Express k in terms of hand j."},
-//   { text: "output: Okay this problem isn't too hard, we need to find two values of m for which they are whole rational numbers. What does this mean? Well, first of all we need to acknowledge what we've been given. The abslute value of 5 + 3m = 11. Now we cant exactly bring everything to one side since the absolute value sign is there. So there are two ways to get rid of the absolute value sign. Square both sides OR have to equations, 1 plus 11 and the other minus 11. Lets square both sides and see what happens." },
-// ];
-
-// const result = await model.generateContent({
-//   contents: [{ role: "user", parts }],
-//   generationConfig,
-//   safetySettings,
-// });
-
-// const response = result.response
-// return new Response(JSON.stringify({ text: response.text() }), {
-//   status: 200,
-//   headers: {
-//     'Content-Type': 'application/json',
-//   },
-// });

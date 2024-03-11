@@ -12,11 +12,6 @@ on:
 
 env: 
   DATABASE_URL: ${{ secrets.DATABASE_URL }}
-  JWT_TOKEN: ${{ secrets.JWT_TOKEN }}
-  COOKIE_NAME: ${{ secrets.COOKIE_NAME }}
-  EMAIL: ${{ secrets.EMAIL }}
-  PASSWORD: ${{ secrets.PASSWORD }}
-  URL: ${{ secrets.URL }}
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:

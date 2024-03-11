@@ -30,10 +30,6 @@ export const siteConfig = {
 			label: "Pricing",	
 			href: "/pricing",
 		},
-		{
-			label: "How I built this",
-			href: "/",
-		},
 
 	],
 	links: {

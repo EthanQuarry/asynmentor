@@ -3,7 +3,6 @@ import { getProfileImg } from "@/config/helpers/dbqueries";
 import { validateRequest } from "@/auth";
 import { Divider } from "@nextui-org/react";
 import { redirect } from "next/navigation";
-import Script from "next/script";
 
 
 export default async function DashboardLayout({ children }: { children: React.ReactNode }) {

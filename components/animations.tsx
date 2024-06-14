@@ -1,6 +1,6 @@
 "use client"
 
-import { motion, useScroll, useAnimation } from 'framer-motion';
+import { motion, useScroll, useAnimation, delay } from 'framer-motion';
 import { useEffect } from 'react';
 
 export const FadeInFromTop = ({ children }: { children: React.ReactNode }) => {
@@ -68,7 +68,7 @@ export const FadeInFromTopTwo = ({ children }: { children: React.ReactNode }) =>
       y: 0,
       opacity: 1,
       transition: {
-        delay: .4,
+        delay: 4,
         stiffness: 0,
         damping: 10,
       },
@@ -219,3 +219,37 @@ export const FadeInOnScrollLeft = ({ children }: { children: React.ReactNode }) 
     </motion.div>
   ) 
 }
+
+
+export const DelayAnimation = ({ children, delay }: { children: React.ReactNode, delay: number }) => {
+  const controls = useAnimation();
+
+  useEffect(() => {
+    const animateChild = async () => {
+      await controls.start('animate');
+    };
+
+    animateChild();
+  }, [controls]);
+
+  const animationVariants = {
+    initial: { opacity: 0 },
+    animate: {
+      opacity: 1,
+      transition: {
+        duration: 1,
+        delay: delay, // Adjust this delay as needed to synchronize with the first animation
+      },
+    },
+  };
+
+  return (
+    <motion.span
+      initial="initial"
+      animate={controls}
+      variants={animationVariants}
+    >
+      {children}
+    </motion.span>
+  );
+};

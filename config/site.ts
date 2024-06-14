@@ -2,6 +2,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
 	name: "Asynmentor - The Revolutionary Study Tool.",
+	title: "StudyPoo",
 	description: "Utilising the latest technology to help you study smarter, not harder.",
 	navItems: [
 		{

@@ -9,6 +9,30 @@ const nextConfig = {
             port: '',
             pathname: '/**',
           },
+          {
+            protocol: 'https',
+            hostname: 'images.unsplash.com',
+            port: '',
+            pathname: '/**',
+          },
+          {
+            protocol: 'https',
+            hostname: 'instagram.fdub8-1.fna.fbcdn.net',
+            port: '',
+            pathname: '/**',
+          },
+          {
+            protocol: 'https',
+            hostname: 'wallpapercave.com',
+            port: '',
+            pathname: '/**',
+          },
+          {
+            protocol: 'https',
+            hostname: 'wallpapercave.com',
+            port: '',
+            pathname: '/**',
+          }
         ],
       },
     webpack: (config) => {

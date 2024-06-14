@@ -1,3 +1,5 @@
+"use client"
+
 import {
 	Navbar as NextUINavbar,
 	NavbarContent,
@@ -7,37 +9,41 @@ import {
 	NavbarItem,
 	NavbarMenuItem,
 } from "@nextui-org/navbar";
-import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
-import { Input } from "@nextui-org/input";
 import { button as buttonStyles } from "@nextui-org/theme";
 import { link as linkStyles } from "@nextui-org/theme";
 import {Chip} from "@nextui-org/react";
-
 import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
 import clsx from "clsx";
-
 import { ThemeSwitch } from "@/components/theme-switch";
-import {
-	GithubIcon,
-	SearchIcon,
-} from "@/components/icons";
 import { Button } from "@nextui-org/button";
+import { title } from "./primitives";
+import { useEffect, useState } from "react";
+
 
 export const Navbar = () => {
+	const [isScrolled, setIsScrolled] = useState(false);
 
+	const handleScroll = () => {
+	  const showNavbarBlur = window.scrollY > 50; // Adjust threshold as needed
+	  setIsScrolled(showNavbarBlur);
+	};
+  
+	useEffect(() => {
+	  window.addEventListener('scroll', handleScroll);
+	  return () => window.removeEventListener('scroll', handleScroll);
+	}, []);
 	return (
 		<NextUINavbar style={{
 			background: "rgba(0, 0, 0, 0)",
-			backdropFilter: "blur(10px)",
 			borderBottom: "1px solid rgba(0, 0, 0, 0.1)",
-		}} maxWidth="xl" position="sticky">
+		}} maxWidth="xl" position="sticky" isBlurred={isScrolled}>
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">
 						
-					<i className="inline-block text-transparent font-semibold bg-gradient-to-r bg-clip-text from-[#FF1CF7] to-[#b249f8]">Asynmentor</i>
+					<h3 className={`inline-block opacity-80 ${title({ size: "sm" })}`}>{siteConfig.title}</h3>
 					</NextLink>
 					<Chip color="success" variant="bordered" size="sm">Beta</Chip>
 				</NavbarBrand>
@@ -45,7 +51,7 @@ export const Navbar = () => {
 
 			<NavbarContent
 				className="hidden sm:flex basis-1/5 sm:basis-full"
-				justify="end"
+				justify="center"
 			>
 
 				<ul className="hidden lg:flex gap-4 justify-start ml-2">
@@ -53,34 +59,42 @@ export const Navbar = () => {
 						<NavbarItem key={item.href}>
 							<NextLink
 								className={clsx(
-									linkStyles({ color: "foreground" }),
-									"data-[active=true]:text-primary data-[active=true]:font-medium"
+									linkStyles(),
+									"data-[active=true]:text-primary data-[active=true]:font-bold"
 								)}
 								color="foreground"
 								href={item.href}
 							>
-								{item.label}
+								<div className="font-semibold opacity-80">{item.label}</div>
 							</NextLink>
 						</NavbarItem>
 					))}
 				</ul>
+			
+			</NavbarContent>
+
+			<NavbarContent
+				className="hidden sm:flex basis-1/5 sm:basis-full"
+				justify="end"
+			>
 				<NavbarItem className="hidden sm:flex gap-2">
-					<ThemeSwitch />
+					
 					<Link
                         href={"/login"}
                     >
                         <Button
-                            className={buttonStyles({ color: "primary", variant: "ghost", size: "md", radius: "sm"})}
+                            className={` ${buttonStyles({ color: "primary", variant: "shadow", size: "md", radius: "md" })} opacity-90 `}
                         >
                             Get Started For Free
                         </Button>
                     </Link>
+					<ThemeSwitch />
 				</NavbarItem>
 
 			</NavbarContent>
 
 			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-				<ThemeSwitch />
+				{/* <ThemeSwitch /> */}
 				<NavbarMenuToggle />
 			</NavbarContent>
 

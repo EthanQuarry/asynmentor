@@ -3,7 +3,6 @@ import { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
-import { Navbar } from "@/components/navbar";
 import { Analytics } from "@vercel/analytics/react"
 import clsx from "clsx";
 
@@ -30,7 +29,7 @@ export default function RootLayout({
 			<head />
 			<body
 				className={clsx(
-					"min-h-screen font-sans antialiased",
+					"min-h-screen font-sans antialiased bg-grid-white/[0.02] relative ",
 					fontSans.variable
 				)}
 			>

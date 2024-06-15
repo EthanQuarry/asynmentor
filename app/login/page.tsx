@@ -1,6 +1,3 @@
-
-import { LogosGithubIcon, LogosGoogleIcon} from "@/config/icons";
-import { Button } from "@nextui-org/button";
 import { redirect } from "next/navigation";
 import { validateRequest } from "@/auth";
 import { LoginComponent } from "@/components/application/login";

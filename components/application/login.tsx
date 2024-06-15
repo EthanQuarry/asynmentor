@@ -20,27 +20,27 @@ export function LoginComponent() {
                         duration: 0.8,
                         ease: "easeInOut",
                     }}
-                    className=" bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight md:text-7xl flex flex-col -space-y-4"
+                    className="bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight md:text-7xl flex flex-col -space-y-4"
                 >
-                    
-                        <Button
-                            className=" opacity-65 text text-lg w-full"
-                            size="lg"
-                            color="secondary"
-                            radius="sm"
-                            variant="shadow"
-                            startContent={<LogosGithubIcon />}
-                        >
-                            <Link
-                        href={"/api/student/login/github"}
-                        className=""
+
+                    <Button
+                        className=" opacity-65 text text-lg w-full"
+                        size="lg"
+                        color="secondary"
+                        radius="sm"
+                        variant="shadow"
+                        startContent={<LogosGithubIcon />}
+                    >
+                        <Link
+                            href={"/api/student/login/github"}
+                            className=""
                         >Continue with Github</Link>
-                            
-                        </Button>
-                    
+
+                    </Button>
+
                     <Link href={"/api/student/login/google"}>
                         <Button
-                            className=" opacity-85 shadow-lg w-full" 
+                            className=" opacity-85 shadow-lg w-full"
                             size="lg"
                             radius="sm"
                             variant="shadow"

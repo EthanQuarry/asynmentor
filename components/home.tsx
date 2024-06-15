@@ -183,7 +183,7 @@ export function LandingComponentTwo() {
             <MacbookScroll
                 title={
                     <span>
-                        Make money for studying?? <br /> Ong.
+                        Money for study?? <br /> Its fr.
                     </span>
                 }
                 src={`https://wallpapercave.com/wp/wp2180554.jpg`}

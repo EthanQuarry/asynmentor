@@ -8,7 +8,6 @@ export default function LoginLayout({
 	return (
 		<>
 
-			<div className="from-purple-700 via-purple-600 to-black absolute w-full content-['']  blur-2xl opacity-20  h-96 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] z-[-1]"></div>
 			<div className="relative flex flex-col h-screen">
 				<Navbar />
 				<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">

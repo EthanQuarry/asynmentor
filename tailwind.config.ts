@@ -97,6 +97,11 @@ module.exports = {
               DEFAULT: "#000000",
               foreground: "#FFFFFF",
             },
+            secondary: {
+              DEFAULT: "#FFFFFF",
+              foreground: "#000000"
+            },
+            
             focus: "#000",
           }
         },
@@ -119,7 +124,10 @@ module.exports = {
             primary: {
               DEFAULT: "#FFFFFF",
               foreground: "#000000",
-             
+            },
+            secondary: {
+              DEFAULT: "#000000",
+              foreground: "#FFFFFF"
             },
             focus: "#FFF",
             background: {

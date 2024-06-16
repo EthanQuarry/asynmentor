@@ -1,8 +1,11 @@
+
+"use client"
 import { siteConfig } from "@/config/site";
 import { title } from "../primitives";
-import { Button, Chip } from "@nextui-org/react";
+import { Chip } from "@nextui-org/react";
 import Link from "next/link";
 import { HealthIconsWeights, HealthiconsIExamMultipleChoice, GameIconsBarbute } from "@/config/icons"
+import { usePathname } from 'next/navigation';
 
 
 const iconComponents: Record<string, React.ComponentType> = {
@@ -18,6 +21,7 @@ const iconComponents: Record<string, React.ComponentType> = {
   };
 
 export function SideBar() {
+    const pathname = usePathname();
     return (
         <div className="w-60 pt-8 mx-14 ">
             <div className="flex justify-left items-center pl-4 mb-6 gap-3">
@@ -30,13 +34,14 @@ export function SideBar() {
                     <Link
                         key={`${item}-${index}`}
                         href={item.url}
-                        className="flex align-baseline items-center w-full text-md rounded-md opacity-90 hover:bg-gray-50/25 px-4 py-1 gap-3"
-                    >
+                        passHref
+                        className={`flex align-baseline items-center w-full text-md rounded-md opacity-90 hover:bg-gray-50/25 px-4 py-1 gap-3 ${ pathname === item.url? 'border border-zinc-500' : ''}`}                    >
                         {renderIcon(item.icon)}
                         {item.title}
-
                     </Link>
+                    
                 ))}
+                
             </div>
         </div>
     )

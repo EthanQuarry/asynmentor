@@ -46,7 +46,7 @@ export const siteConfig = {
 				id: 1,
 				title: "Quiz (Easy)",
 				icon: "HealthIconsWeights",
-				url: "/learn",
+				url: "/quiz",
 			},
 			{
 				id: 2,

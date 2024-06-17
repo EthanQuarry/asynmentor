@@ -29,7 +29,7 @@ export function SideBar() {
                 <Chip color="success" variant="bordered" size="sm">Beta</Chip>
             </div>
 
-            <div className="flex flex-col space-y-4 mt-5">
+            <div className="flex flex-col space-y-4 mt-10">
                 {siteConfig.application.options.map((item, index) => (
                     <Link
                         key={`${item}-${index}`}

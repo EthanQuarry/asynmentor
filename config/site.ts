@@ -1,6 +1,34 @@
 export type SiteConfig = typeof siteConfig;
 
-
+export const subjectConfig = {
+	subjects: [
+		{
+			title: "Maths",
+			questions: [],
+			quiz: [],
+		},
+		{
+			title: "Physics",
+			questions: [],
+			quiz: [],
+		},
+		{
+			title: "Computer Science",
+			questions: [],
+			quiz: [],
+		},
+		{
+			title: "Applied Maths",
+			questions: [],
+			quiz: [],
+		},
+		{
+			title: "Economics",
+			questions: [],
+			quiz: [],
+		},
+	]
+}
 
 export const siteConfig = {
 	name: "StudyPoo - The Revolutionary Study Tool.",

@@ -5,7 +5,7 @@ import { LoginComponent } from "@/components/application/login";
 export default async function Page() {
     const { user } = await validateRequest();
     if (user) {
-        return redirect("/leaving-cert/maths");
+        return redirect("/quiz");
     }
     return (
         <div className="flex flex-col lg:w-full">

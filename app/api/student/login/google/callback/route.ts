@@ -61,7 +61,7 @@ export async function GET(request: Request) {
                 return new Response("User already exists", {
                     status: 302,
                     headers: {
-                        location: "/leaving-cert/maths"
+                        location: "/quiz"
                     }
                 });
             }
@@ -94,7 +94,7 @@ export async function GET(request: Request) {
         return new Response("User Created", {
             status: 302,
             headers: {
-                location: "/leaving-cert/maths"
+                location: "/quiz"
             }
         });
         // TODO: Configure incorrect credentials page.

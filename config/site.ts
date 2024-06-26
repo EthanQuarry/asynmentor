@@ -3,7 +3,7 @@ export type SiteConfig = typeof siteConfig;
 
 
 export const siteConfig = {
-	name: "Asynmentor - The Revolutionary Study Tool.",
+	name: "StudyPoo - The Revolutionary Study Tool.",
 	title: "StudyPoo",
 	description: "Utilising the latest technology to help you study smarter, not harder.",
 	navItems: [
@@ -44,38 +44,38 @@ export const siteConfig = {
 		options: [
 			{
 				id: 1,
-				title: "Quiz (Easy)",
+				title: "Quiz",
 				icon: "HealthIconsWeights",
 				url: "/quiz",
 			},
 			{
 				id: 2,
-				title: "Coming soon 1",
+				title: "Questions (AI powered)",
 				icon: "HealthiconsIExamMultipleChoice",
-				url: "/test",
+				url: "/questions",
 			},
 			{
 				id: 3,
-				title: "Coming soon 2",
-				icon: "GameIconsBarbute",
-				url: "/test",
+				title: "Leaderboard",
+				icon: "PhShieldDuotone",
+				url: "/leaderboard",
 			},
 			{
 				id: 4,
-				title: "Coming soon 3",
+				title: "",
 				icon: "",
-				url: "/test",
+				url: "/",
 			},
 			{	id: 5,
-				title: "Coming soon 4",
+				title: "",
 				icon: "",
-				url: "/test",
+				url: "/",
 			},
 			{
 				id: 6,
-				title: "Coming soon 5",
+				title: "",
 				icon: "",
-				url: "/test",
+				url: "/",
 			},
 		]
 	}

@@ -4,7 +4,7 @@ import { siteConfig } from "@/config/site";
 import { title } from "../primitives";
 import { Chip } from "@nextui-org/react";
 import Link from "next/link";
-import { HealthIconsWeights, HealthiconsIExamMultipleChoice, GameIconsBarbute } from "@/config/icons"
+import { HealthIconsWeights, HealthiconsIExamMultipleChoice, GameIconsBarbute, BiShieldSlashFill, PhShieldDuotone } from "@/config/icons"
 import { usePathname } from 'next/navigation';
 
 
@@ -12,6 +12,8 @@ const iconComponents: Record<string, React.ComponentType> = {
     HealthIconsWeights: HealthIconsWeights,
     HealthiconsIExamMultipleChoice: HealthiconsIExamMultipleChoice,
     GameIconsBarbute: GameIconsBarbute,
+    BiShieldSlashFill: BiShieldSlashFill,
+    PhShieldDuotone: PhShieldDuotone
   };
   
 
@@ -29,19 +31,18 @@ export function SideBar() {
                 <Chip color="success" variant="bordered" size="sm">Beta</Chip>
             </div>
 
-            <div className="flex flex-col space-y-4 mt-10">
+            <div className="flex flex-col space-y-2 mt-10">
                 {siteConfig.application.options.map((item, index) => (
                     <Link
                         key={`${item}-${index}`}
                         href={item.url}
                         passHref
-                        className={`flex align-baseline items-center w-full text-md rounded-md opacity-90 hover:bg-gray-50/25 px-4 py-1 gap-3 ${ pathname === item.url? 'border border-zinc-500' : ''}`}                    >
+                        className={`flex align-baseline items-center w-full text-md rounded-md opacity-90 hover:bg-gray-50/25 px-4 py-[6px] gap-3 ${ pathname === item.url? 'border border-zinc-500' : ''}`}                    >
                         {renderIcon(item.icon)}
                         {item.title}
                     </Link>
                     
                 ))}
-                
             </div>
         </div>
     )
